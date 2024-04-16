@@ -7,7 +7,7 @@ Curso introdutório
 * [Referências de Cursos Online](https://github.com/ect-info/ml/blob/master/cursos_online.md) 
 * [Outras Referências](https://github.com/ect-info/ml/blob/master/outras_referencias.md) 
 * [Visão Geral da Área](https://github.com/ect-info/dpia/blob/master/visao_geral.md)
-* [Cronograma](https://docs.google.com/spreadsheets/d/1Wd1mAKIYPm87N4BkJhvtAqXs-keZfKMP_D2a-TmBUSM/edit?usp=sharing)  
+* [Cronograma](https://docs.google.com/spreadsheets/d/1_Mi-g1lmpL2VWQo3jpUIbnxsSsDcMlu1yAWtYDc4DGo/edit?usp=sharing)  
 * [Material de Aula](#material-de-aula)
 
 ## Ferramenta de Apoio
