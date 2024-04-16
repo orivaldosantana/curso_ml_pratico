@@ -1,2 +1,4 @@
-# curso_ml_pratico
-Machine Learning 
+# Introdução ao Aprendizado de Máquina na Prática 
+Curso introdutório 
+
+
