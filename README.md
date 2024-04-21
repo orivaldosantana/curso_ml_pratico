@@ -39,7 +39,7 @@ Material de apoio:
 
 ### Naive Bayes 
 * Slides
-* Código de exemplo
+* Código de exemplo ??? Titanic 
 * Exercício
 
 ### Árvore de Decisão 
