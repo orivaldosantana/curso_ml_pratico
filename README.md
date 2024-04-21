@@ -30,55 +30,59 @@ Os problemas abaixo servem de base para a introdução de conceitos de aprendiza
 ## Classificação e Regressão 
 
 ### Introdução ao Aprendizado de Máquina 
+* [Slides: Conceitos](https://docs.google.com/presentation/d/1p0ZDtjHuog-ENMHVbMX6LiabMXlTjYIV8t1DA2iBqIY/edit?usp=sharing)
+
+Material de apoio: 
 * [Vídeos e Form: Introdução ao Aprendizado de Máquina](https://docs.google.com/forms/d/e/1FAIpQLScN2CzUWUSDjj4hCN-Xd8yDJQ75ks00c6eNqE6dFDg-mSnYRw/viewform?usp=sf_link)   
 * [Vídeos e Form: Aprendizado de Máquina - Exemplos](https://docs.google.com/forms/d/e/1FAIpQLSf2tVmAS_Ovy_Fja5TVktUUWTo3AmnchAtTluMme7kOIIjchA/viewform?usp=sf_link)   
 * [Vídeos e Form: Introdução ML - Principais Conceitos](https://docs.google.com/forms/d/e/1FAIpQLScqCw62IcRiKWNJx1qyqZPanjeCzPaAjB1Qg3diORDmyxY_OQ/viewform?usp=sf_link)   
-* [Slides: Conceitos](https://docs.google.com/presentation/d/1p0ZDtjHuog-ENMHVbMX6LiabMXlTjYIV8t1DA2iBqIY/edit?usp=sharing)   
 
-### Introdução Multilayer Perceptron (MLP) 
+### Naive Bayes 
+* Slides
+* Código de exemplo
+* Exercício
+
+### Árvore de Decisão 
+* Slides
+* Código de exemplo
+* Exercício
+
+### Suport Vector Machine (SVM)
+* [Slides](https://docs.google.com/presentation/d/19mAI5sjOWURpzuKpoFjbjmCkjUXUysU_kysfbksmVAg/edit?usp=sharing)
+* [Código: SVM compra produto](https://colab.research.google.com/drive/1w7Tt9UFngIkEjThnNlYj8Tki6EwVWxeP?usp=sharing)
+* [Exemplo de código: SVM](https://colab.research.google.com/drive/1VYmZBcf2FHmz_gwPRxllxwoy0nTaU8X9?usp=sharing) 
+
+Material de apoio: 
+* [Vídeos e Form: SVM](https://docs.google.com/forms/d/e/1FAIpQLSdS3YCo4v5NDzMuHzWKDyX-hb-nf6Pz2XLEM8RXknV6pmjssQ/viewform?usp=sf_link) 
+
+Material complementar
+* [Vídeo: prática sobre classificação usando SVM](https://youtu.be/R3T4KnYg-tE) 
+
+### Multilayer Perceptron (MLP) 
+* [Slides: MLP](https://docs.google.com/presentation/d/1oIzH-SNbJ3_4vYZdt_IZQi3537BUJKsvio_oV8c8Bnc/edit?usp=sharing)
+* [Código de exemplo](https://colab.research.google.com/drive/1wR1xoQGDrgDUysDqWkhVdvNj-qluo2pk?usp=sharing)
+* Exercício 
+
+Material de apoio: 
 * [Vídeos e Form: MLP parte 1](https://docs.google.com/forms/d/e/1FAIpQLSc_kQ1w4tnsrRjPsS56jOKZ7Bb1ZwN0bOAEwVRW0pKBWtyZkQ/viewform?usp=sf_link)   
 * [Vídeos e Form: MLP Parte 2](https://docs.google.com/forms/d/e/1FAIpQLSdFS64t1TlAq9mYtgx6JAi_-XoplMcY0Hj2xc1dub8riXWFTA/viewform?usp=sf_link)   
-* [Slides: MLP](https://docs.google.com/presentation/d/1oIzH-SNbJ3_4vYZdt_IZQi3537BUJKsvio_oV8c8Bnc/edit?usp=sharing)   
-
-Prática:
 * [Vídeo: Construindo e treinando uma rede MLP simples com keras e tensorflow](https://youtu.be/qyMO5UHLgs4) 
-* [Código: MLP - Multilayer Perceptron](https://colab.research.google.com/drive/1wR1xoQGDrgDUysDqWkhVdvNj-qluo2pk?usp=sharing)
 
-#### Material complementar
-Python:
+Material complementar: 
 * [Vídeo: RNA - Construindo um Perceptron](https://youtu.be/uTi0O3tjdSM) 
 * [Código: Exemplo de perceptron](https://colab.research.google.com/drive/1jbFCvifaAou19mlu2pI3Rso8DoMow_zl?usp=sharing)
 
-### Introdução sobre Suport Vector Machine (SVM)
-* [Vídeos e Form: SVM](https://docs.google.com/forms/d/e/1FAIpQLSdS3YCo4v5NDzMuHzWKDyX-hb-nf6Pz2XLEM8RXknV6pmjssQ/viewform?usp=sf_link) 
-* [Exemplo de código: SVM](https://colab.research.google.com/drive/1VYmZBcf2FHmz_gwPRxllxwoy0nTaU8X9?usp=sharing) 
-* [Slides](https://docs.google.com/presentation/d/19mAI5sjOWURpzuKpoFjbjmCkjUXUysU_kysfbksmVAg/edit?usp=sharing) 
-
-#### Material complementar
-Python:
-* [Vídeo: prática sobre classificação usando SVM](https://youtu.be/R3T4KnYg-tE) 
-* [Código: SVM compra produto](https://colab.research.google.com/drive/1w7Tt9UFngIkEjThnNlYj8Tki6EwVWxeP?usp=sharing)
-
-Knime: 
-* [Base de dados: Consumidor comprar um determinado produto](https://raw.githubusercontent.com/ect-info/ml/master/dados/Social_Network_Ads.csv) 
-* [Introdução á SVM](https://youtu.be/xZDEjnxm31w)
-* [Aula Prática com SVM](https://youtu.be/-AROcZZxu14)
-
-### Introdução sobre _Deep Learning_
+### _Deep Learning_
 * [Vídeos e Form: _Deep Learning_](https://docs.google.com/forms/d/e/1FAIpQLSerRGTZZPjgz7yv1zWqZQfFVM6WkTyqkB22R7w3IRnvcRNE5A/viewform?usp=sf_link)
 * [Slides: _Deep Learning_](https://docs.google.com/presentation/d/1pxztvhuOc36D76cDW86oj8nGZAIlQSEn2GZJE0GzGLw/edit?usp=sharing)
 * [Exemplo de código: MLP - Exemplo sobre se um cliente deixa um banco](https://colab.research.google.com/drive/1NndIE2zvup_aWqSG06JR7i6_WxXQ-xMU?usp=sharing)
 * [Exemplo de código: Reconhecimento de caracteres escritos a mão](https://colab.research.google.com/drive/1gGi-n3vAJkjdEKMYLZkSCXoDhyRS1tSJ?usp=sharing)
-#### Material complementar
 
-Python:
+Material complementar: 
 * [Aula Prática: Reconhecimento de caracteres escritos a mão com Deep Learning](https://youtu.be/lXCz0tduSh8) 
 * [Código: Reconhecimento de caracteres escritos a mão com Deep Learning](https://colab.research.google.com/drive/18fPqtpy6AV5Uo-WlmyFe6Epj-7UlrXgg) 
 
-Knime:
-* [Introdução _Deep Learning_](https://drive.google.com/file/d/1_1J8mtmXoJJc3rfb02F8bWzv3lZxw9tg/view?usp=sharing) 
-
-#### Extras
+Extras: 
 * [Neural Networks from 3Blue1Brown](https://www.3blue1brown.com/lessons/neural-networks)
 * [But what is a Neural Network?](https://www.youtube.com/watch?v=aircAruvnKk)
 * [Gradient Descent, How Neural Networks Learn](https://www.youtube.com/watch?v=IHZwWFHWa-w)
@@ -86,16 +90,15 @@ Knime:
 * [Backpropagation calculus](https://www.youtube.com/watch?v=tIeHLnjs5U8)
 * [Book: Neural Networks and Deep learning](http://neuralnetworksanddeeplearning.com/index.html)
 
+
 ### Modelos para Regressão
 * ??? [Código: Regressão com a população brasileira](https://colab.research.google.com/drive/1dCF8pGdv6N4-C09oP7cJbuSYvTK5zhKj?usp=sharing)
 * ??? [Código: Regressão usando SVM - prever o lucro de uma startup](https://colab.research.google.com/drive/13ucrTNkmJIH-XxXQiMS5q6ZTxBC1j6R0?usp=sharing)
 * ??? Escolher um exemplo com MLP [Códigos: Realizando uma estimativa de sálario a partir dos anos de experiência](https://colab.research.google.com/drive/1cnvCdgxz0eHWzSSjKrMPD1LLj5VE21rv?usp=sharing)    
-#### Material complementar
-Aula: 
-* [Vídeos e Form](https://docs.google.com/forms/d/e/1FAIpQLSeyZ-kUCvbkStaiMOCbs9FYInwPhQX96IMqiTo2kQ7cJLZyCw/viewform?usp=sf_link) 
-* [Slides](https://docs.google.com/presentation/d/1iELBYui_t5S_FNhsOZkqm_a1xvHtOW17QbGeLYWAr-s/edit?usp=sharing)
 
-Python:
+Material complementar:
+* [Vídeos e Form](https://docs.google.com/forms/d/e/1FAIpQLSeyZ-kUCvbkStaiMOCbs9FYInwPhQX96IMqiTo2kQ7cJLZyCw/viewform?usp=sf_link) 
+* [Slides](https://docs.google.com/presentation/d/1iELBYui_t5S_FNhsOZkqm_a1xvHtOW17QbGeLYWAr-s/edit?usp=sharing) 
 * [Vídeo: Prática com regressão linear simples](https://youtu.be/WTIOoHNFsGQ)
 * [Código: Regressão com a população brasileira](https://colab.research.google.com/drive/1dCF8pGdv6N4-C09oP7cJbuSYvTK5zhKj?usp=sharing)
 * [Vídeo: Prática com regressão linear múltipla](https://youtu.be/U9xhYLWhwpc) 
