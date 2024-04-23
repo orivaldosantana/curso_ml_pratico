@@ -41,8 +41,8 @@ Material de apoio:
 * [Slides: MLP](https://docs.google.com/presentation/d/1oIzH-SNbJ3_4vYZdt_IZQi3537BUJKsvio_oV8c8Bnc/edit?usp=sharing)
 * [Código de exemplo](https://colab.research.google.com/drive/1wR1xoQGDrgDUysDqWkhVdvNj-qluo2pk?usp=sharing)
 * Exercício
-  * [Código com Perceptron de Sklearn](https://colab.research.google.com/drive/1wR1xoQGDrgDUysDqWkhVdvNj-qluo2pk?usp=sharing)
-  * [Código com MLP](https://colab.research.google.com/drive/1y0tUhGB3cwWMdMOO9Z5_5OG0gGXNJHq1?usp=sharing)
+  * [Código com Perceptron de Sklearn - Dígitos](https://colab.research.google.com/drive/1eppuqhaH3qa09_I_IiYbz2ftpAMbQKn5?usp=sharing)
+  * [Código com MLP - Íris](https://colab.research.google.com/drive/1y0tUhGB3cwWMdMOO9Z5_5OG0gGXNJHq1?usp=sharing)
 
 * Base de dados:
   * [Flor de íris](https://raw.githubusercontent.com/ect-info/ml/master/dados/Iris.csv)  
