@@ -60,9 +60,7 @@ Material complementar:
 
 ### Suport Vector Machine (SVM)
 * [Slides](https://docs.google.com/presentation/d/19mAI5sjOWURpzuKpoFjbjmCkjUXUysU_kysfbksmVAg/edit?usp=sharing)
-* [Código: SVM - compra um produto](https://colab.research.google.com/drive/1gwdc-7YAUDq12wE5TNjuoJ7q1onHET7J?usp=sharing) 
-
-
+* [Código com SVM - compra de um produto](https://colab.research.google.com/drive/1gwdc-7YAUDq12wE5TNjuoJ7q1onHET7J?usp=sharing) 
 
 Material de apoio: 
 * [Vídeos e Form: SVM](https://docs.google.com/forms/d/e/1FAIpQLSdS3YCo4v5NDzMuHzWKDyX-hb-nf6Pz2XLEM8RXknV6pmjssQ/viewform?usp=sf_link) 
