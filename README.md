@@ -41,7 +41,6 @@ Material de apoio:
 
 ### Multilayer Perceptron (MLP) 
 * [Slides: MLP](https://docs.google.com/presentation/d/1oIzH-SNbJ3_4vYZdt_IZQi3537BUJKsvio_oV8c8Bnc/edit?usp=sharing)
-* [Código de exemplo](https://colab.research.google.com/drive/1wR1xoQGDrgDUysDqWkhVdvNj-qluo2pk?usp=sharing)
 * Exercício
   * [Código com Perceptron de Sklearn - Dígitos](https://colab.research.google.com/drive/1eppuqhaH3qa09_I_IiYbz2ftpAMbQKn5?usp=sharing)
   * [Código com MLP - Íris](https://colab.research.google.com/drive/1y0tUhGB3cwWMdMOO9Z5_5OG0gGXNJHq1?usp=sharing)
@@ -55,8 +54,10 @@ Material de apoio:
 * [Vídeo: Construindo e treinando uma rede MLP simples com keras e tensorflow](https://youtu.be/qyMO5UHLgs4) 
 
 Material complementar: 
-* [Vídeo: RNA - Construindo um Perceptron](https://youtu.be/uTi0O3tjdSM) 
-* [Código: Exemplo de perceptron](https://colab.research.google.com/drive/1jbFCvifaAou19mlu2pI3Rso8DoMow_zl?usp=sharing)
+* [Vídeo: RNA - Construindo um Perceptron](https://youtu.be/uTi0O3tjdSM)
+* Códigos:
+  * [Exemplo de perceptron](https://colab.research.google.com/drive/1jbFCvifaAou19mlu2pI3Rso8DoMow_zl?usp=sharing)
+  * [Exemplo MLP - Compra de um produto](https://colab.research.google.com/drive/1wR1xoQGDrgDUysDqWkhVdvNj-qluo2pk?usp=sharing)
 
 ### Suport Vector Machine (SVM)
 * [Slides](https://docs.google.com/presentation/d/19mAI5sjOWURpzuKpoFjbjmCkjUXUysU_kysfbksmVAg/edit?usp=sharing)
@@ -66,7 +67,10 @@ Material de apoio:
 * [Vídeos e Form: SVM](https://docs.google.com/forms/d/e/1FAIpQLSdS3YCo4v5NDzMuHzWKDyX-hb-nf6Pz2XLEM8RXknV6pmjssQ/viewform?usp=sf_link) 
 
 Material complementar
-* [Vídeo: prática sobre classificação usando SVM](https://youtu.be/R3T4KnYg-tE) 
+* [Vídeo: prática sobre classificação usando SVM](https://youtu.be/R3T4KnYg-tE)
+* Códigos:
+  * [Exempo 1: SVM - compra de um produto](https://colab.research.google.com/drive/1w7Tt9UFngIkEjThnNlYj8Tki6EwVWxeP?usp=sharing)
+  * [Exempo 2: SVM - compra de um produto](https://colab.research.google.com/drive/1VYmZBcf2FHmz_gwPRxllxwoy0nTaU8X9?usp=sharing)
 
 ### Árvore de Decisão 
 * Slides
