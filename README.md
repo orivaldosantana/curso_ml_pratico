@@ -20,8 +20,7 @@ Os problemas abaixo servem de base para a introdução de conceitos de aprendiza
 1. Classificação de dígitos escritos a mão 
 1. Classificação de Flor de Íris
 1. Predição de compra ou não de um produto 
-1. Prever o lucro de uma startup
-1. Previsão de compra de um produto
+1. Prever o lucro de uma startup 
 1. Reconhecimento de dígitos escritos a mão
 1. Perfil de clientes de uma loja
 1. Análise de perfil de estudantes
@@ -61,8 +60,9 @@ Material complementar:
 
 ### Suport Vector Machine (SVM)
 * [Slides](https://docs.google.com/presentation/d/19mAI5sjOWURpzuKpoFjbjmCkjUXUysU_kysfbksmVAg/edit?usp=sharing)
-* [Código: SVM compra produto](https://colab.research.google.com/drive/1w7Tt9UFngIkEjThnNlYj8Tki6EwVWxeP?usp=sharing)
-* [Exemplo de código: SVM](https://colab.research.google.com/drive/1VYmZBcf2FHmz_gwPRxllxwoy0nTaU8X9?usp=sharing) 
+* [Código: SVM - compra um produto](https://colab.research.google.com/drive/1gwdc-7YAUDq12wE5TNjuoJ7q1onHET7J?usp=sharing) 
+
+
 
 Material de apoio: 
 * [Vídeos e Form: SVM](https://docs.google.com/forms/d/e/1FAIpQLSdS3YCo4v5NDzMuHzWKDyX-hb-nf6Pz2XLEM8RXknV6pmjssQ/viewform?usp=sf_link) 
