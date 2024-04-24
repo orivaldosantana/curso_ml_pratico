@@ -17,6 +17,9 @@ Curso introdutório
  
 ## Problemas Norteadores 
 Os problemas abaixo servem de base para a introdução de conceitos de aprendizado de máquina. 
+1. Classificação de dígitos escritos a mão 
+1. Classificação de Flor de Íris
+1. Predição de compra ou não de um produto 
 1. Prever o lucro de uma startup
 1. Previsão de compra de um produto
 1. Reconhecimento de dígitos escritos a mão
@@ -56,16 +59,6 @@ Material complementar:
 * [Vídeo: RNA - Construindo um Perceptron](https://youtu.be/uTi0O3tjdSM) 
 * [Código: Exemplo de perceptron](https://colab.research.google.com/drive/1jbFCvifaAou19mlu2pI3Rso8DoMow_zl?usp=sharing)
 
-### Naive Bayes 
-* Slides
-* Código de exemplo ??? Titanic 
-* Exercício
-
-### Árvore de Decisão 
-* Slides
-* Código de exemplo
-* Exercício
-
 ### Suport Vector Machine (SVM)
 * [Slides](https://docs.google.com/presentation/d/19mAI5sjOWURpzuKpoFjbjmCkjUXUysU_kysfbksmVAg/edit?usp=sharing)
 * [Código: SVM compra produto](https://colab.research.google.com/drive/1w7Tt9UFngIkEjThnNlYj8Tki6EwVWxeP?usp=sharing)
@@ -76,6 +69,20 @@ Material de apoio:
 
 Material complementar
 * [Vídeo: prática sobre classificação usando SVM](https://youtu.be/R3T4KnYg-tE) 
+
+### Árvore de Decisão 
+* Slides
+* Código de exemplo
+* Exercício
+
+### Naive Bayes 
+* Slides
+* Código de exemplo ??? Titanic 
+* Exercício
+
+
+
+
 
 
 
