@@ -67,7 +67,7 @@ Material complementar:
 ### Suport Vector Machine (SVM)
 * [Slides](https://docs.google.com/presentation/d/19mAI5sjOWURpzuKpoFjbjmCkjUXUysU_kysfbksmVAg/edit?usp=sharing)
 * Código:
-  * [Cmpra de um produto](https://colab.research.google.com/drive/1gwdc-7YAUDq12wE5TNjuoJ7q1onHET7J?usp=sharing) 
+  * [Compra de um produto](https://colab.research.google.com/drive/1gwdc-7YAUDq12wE5TNjuoJ7q1onHET7J?usp=sharing) 
 
 Material de apoio: 
 * [Vídeos e Form: SVM](https://docs.google.com/forms/d/e/1FAIpQLSdS3YCo4v5NDzMuHzWKDyX-hb-nf6Pz2XLEM8RXknV6pmjssQ/viewform?usp=sf_link) 
@@ -80,8 +80,9 @@ Material complementar
 
 ### Árvore de Decisão 
 * Slides
-* Código de exemplo
-* Exercício
+* Código:
+  * [Tem diabetes?](https://colab.research.google.com/drive/1ISIObTt9PCeW950jotNgRWkjmdhdMfcN?usp=sharing)
+ 
 
 ### Naive Bayes 
 * Slides
