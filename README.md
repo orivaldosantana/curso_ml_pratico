@@ -42,8 +42,6 @@ Material de apoio:
 * [Vídeos e Form: Aprendizado de Máquina - Exemplos](https://docs.google.com/forms/d/e/1FAIpQLSf2tVmAS_Ovy_Fja5TVktUUWTo3AmnchAtTluMme7kOIIjchA/viewform?usp=sf_link)   
 * [Vídeos e Form: Introdução ML - Principais Conceitos](https://docs.google.com/forms/d/e/1FAIpQLScqCw62IcRiKWNJx1qyqZPanjeCzPaAjB1Qg3diORDmyxY_OQ/viewform?usp=sf_link)
 
-   
-
 ### Multilayer Perceptron (MLP) 
 * [Slides: MLP](https://docs.google.com/presentation/d/1oIzH-SNbJ3_4vYZdt_IZQi3537BUJKsvio_oV8c8Bnc/edit?usp=sharing)
 * Exercício
@@ -82,12 +80,7 @@ Material complementar
 * Slides
 * Código:
   * [Tem diabetes?](https://colab.research.google.com/drive/1ISIObTt9PCeW950jotNgRWkjmdhdMfcN?usp=sharing)
- 
 
-### Naive Bayes 
-* Slides
-* Código de exemplo ??? Titanic 
-* Exercício
 
 ### Regressão
 * [Slides](https://docs.google.com/presentation/d/1iELBYui_t5S_FNhsOZkqm_a1xvHtOW17QbGeLYWAr-s/edit?usp=sharing)
@@ -96,9 +89,10 @@ Material complementar
   * [Regressão usando SVM - prever o lucro de uma startup]() https://colab.research.google.com/drive/13ucrTNkmJIH-XxXQiMS5q6ZTxBC1j6R0?usp=sharing
   * [Realizando uma estimativa de sálario a partir dos anos de experiência]() https://colab.research.google.com/drive/1cnvCdgxz0eHWzSSjKrMPD1LLj5VE21rv?usp=sharing
 
+Material de Apoio:
+* [Vídeos e Form](https://docs.google.com/forms/d/e/1FAIpQLSeyZ-kUCvbkStaiMOCbs9FYInwPhQX96IMqiTo2kQ7cJLZyCw/viewform?usp=sf_link)
 
 Material complementar:
-* [Vídeos e Form](https://docs.google.com/forms/d/e/1FAIpQLSeyZ-kUCvbkStaiMOCbs9FYInwPhQX96IMqiTo2kQ7cJLZyCw/viewform?usp=sf_link) * 
 * [Vídeo: Prática com regressão linear simples](https://youtu.be/WTIOoHNFsGQ)
 * [Código: Regressão com a população brasileira](https://colab.research.google.com/drive/1dCF8pGdv6N4-C09oP7cJbuSYvTK5zhKj?usp=sharing)
 * [Vídeo: Prática com regressão linear múltipla](https://youtu.be/U9xhYLWhwpc) 
@@ -107,11 +101,14 @@ Material complementar:
 
 
 ### _Deep Learning_
-* [Vídeos e Form: _Deep Learning_](https://docs.google.com/forms/d/e/1FAIpQLSerRGTZZPjgz7yv1zWqZQfFVM6WkTyqkB22R7w3IRnvcRNE5A/viewform?usp=sf_link)
-* [Slides: _Deep Learning_](https://docs.google.com/presentation/d/1pxztvhuOc36D76cDW86oj8nGZAIlQSEn2GZJE0GzGLw/edit?usp=sharing)
-* [Exemplo de código: MLP - Exemplo sobre se um cliente deixa um banco](https://colab.research.google.com/drive/1NndIE2zvup_aWqSG06JR7i6_WxXQ-xMU?usp=sharing)
-* [Exemplo de código: Reconhecimento de caracteres escritos a mão](https://colab.research.google.com/drive/1gGi-n3vAJkjdEKMYLZkSCXoDhyRS1tSJ?usp=sharing)
+* [Slides](https://docs.google.com/presentation/d/1pxztvhuOc36D76cDW86oj8nGZAIlQSEn2GZJE0GzGLw/edit?usp=sharing)
+* Códigos:
+  * [MLP - Exemplo sobre se um cliente deixa um banco](https://colab.research.google.com/drive/1NndIE2zvup_aWqSG06JR7i6_WxXQ-xMU?usp=sharing)
+  * [Reconhecimento de caracteres escritos a mão](https://colab.research.google.com/drive/1gGi-n3vAJkjdEKMYLZkSCXoDhyRS1tSJ?usp=sharing)
 
+Material de Apoio:
+* [Vídeos e Form: _Deep Learning_](https://docs.google.com/forms/d/e/1FAIpQLSerRGTZZPjgz7yv1zWqZQfFVM6WkTyqkB22R7w3IRnvcRNE5A/viewform?usp=sf_link)
+  
 Material complementar: 
 * [Aula Prática: Reconhecimento de caracteres escritos a mão com Deep Learning](https://youtu.be/lXCz0tduSh8) 
 * [Código: Reconhecimento de caracteres escritos a mão com Deep Learning](https://colab.research.google.com/drive/18fPqtpy6AV5Uo-WlmyFe6Epj-7UlrXgg) 
@@ -124,20 +121,18 @@ Extras:
 * [Backpropagation calculus](https://www.youtube.com/watch?v=tIeHLnjs5U8)
 * [Book: Neural Networks and Deep learning](http://neuralnetworksanddeeplearning.com/index.html)
 
-
-
 ## Agrumapemnto 
 ### Introdução sobre K-Means
-* [Vídeos e Form: K-Means](https://docs.google.com/forms/d/e/1FAIpQLSfyv1LTd_h0bkniJdy5Zq4Y4oFkqTVQrRVY0MZo8PsvcUzhhQ/viewform?usp=sf_link)
 * [Slides](https://docs.google.com/presentation/d/1hzeAFwgHNZ7pr_POzd4_2lXUgOz_vrVfuhjxl6tbBCs/edit?usp=sharing)
-* [Exemplo de código: perfil de clientes de uma loja](https://colab.research.google.com/drive/15Q-gTih7v2f5pYc64xQa2ytzX2gisX0q?usp=sharing)
-#### Material complementar
-Python:
+* Código:
+  * [Exemplo de código: perfil de clientes de uma loja](https://colab.research.google.com/drive/15Q-gTih7v2f5pYc64xQa2ytzX2gisX0q?usp=sharing)
+
+Material de Apoio:
+* [Vídeos e Form: K-Means](https://docs.google.com/forms/d/e/1FAIpQLSfyv1LTd_h0bkniJdy5Zq4Y4oFkqTVQrRVY0MZo8PsvcUzhhQ/viewform?usp=sf_link)
+
+Material complementar
 * [Aula prática: introdução ao K-Means - Agrupamento](https://youtu.be/t_107z0RHF8)
 * [Código](https://colab.research.google.com/drive/1nc5RD1wMHvROPILgdJVT2GSzwbscLLsw?usp=sharing)
-
-Knime:
-* [Revisão sobre MLP e Apresentação do K-Means](https://www.youtube.com/watch?v=JiaD_BdYAzQ)
 
 ### Introdução sobre Rede SOM 
 * [Vídeos e Form: Rede SOM](https://docs.google.com/forms/d/e/1FAIpQLSdTb_IhVEJW7LksxXYTBkf-rslxQ_zdywV4AT3bCkJdB1wxjw/viewform?usp=sf_link)
@@ -147,25 +142,23 @@ Knime:
 Atividade 
  * Visualizar os dados de perfis de clientes com uma rede SOM. Exemplo de dados: [Clientes de um supermercado no Kaggle](https://www.kaggle.com/datasets/dev0914sharma/customer-clustering?resource=download&select=segmentation+data.csv) ou [acesso direto](https://raw.githubusercontent.com/ect-info/ml/master/dados/segmentation%20data.csv) 
 
-#### Material complementar
-Python:
+Material complementar:
 * [Aula prática: introdução à rede SOM - Visualização de Dados](https://youtu.be/-mEn7puBD84)
 * [Código](https://colab.research.google.com/drive/1S-aMgBqFe9OgGdjURrWs86l7LaHLRuRJ?usp=sharing)
 * [Vídeo: Análise de perfis e desempenho em LoP](https://youtu.be/RFi62fy17tY)
 * [Código: Análise de perfis e desempenho em LoP](https://colab.research.google.com/drive/1lVfiGPf1yyDx7Zv_AUrS4o3bgO0E0EzH?usp=sharing)
 
-Knime:
-* [Aula ficou sem a visualização da tela](https://drive.google.com/file/d/1quW9GDP6TQHhN1h_aHdsJ4zdfY_8f0xN/view?usp=sharing) 
-* [Análise de Perfil de Estudantes](https://youtu.be/yzq_kJk4Oa0) 
-
-
 ## Modelos para Texto
 ### Introdução sobre Processamento de Linguagem Natural (NLP) 
+
+* [Slides](https://docs.google.com/presentation/d/1yFBohFjlsk-O7Rw7YthMVi3nji1zFHYwLQRUZfLv31c/edit?usp=sharing)
+* Código:
+  * [Análise de sentimentos ](https://colab.research.google.com/drive/1n80Us6FJZ74XyYIyl8iiqbSyIBapk9Yj?usp=sharing)
+
+Material de apoio: 
 * [Form e vídeos](https://docs.google.com/forms/d/e/1FAIpQLSc6vVpLZgcoxq-zaJ12TJI1_6OkzCDhzVQAhoI3_5oioIfDPw/viewform?usp=sf_link)
-* [Slides: NLP ](https://docs.google.com/presentation/d/1yFBohFjlsk-O7Rw7YthMVi3nji1zFHYwLQRUZfLv31c/edit?usp=sharing)
-* [Código: Análise de sentimentos ](https://colab.research.google.com/drive/1n80Us6FJZ74XyYIyl8iiqbSyIBapk9Yj?usp=sharing)
-#### Material complementar
-Python:
+
+Material complementar
 * [Aula prática - parte 1: Introdução à Processamento de Linguagem Natural](https://youtu.be/ZnGC0tQLjNM)
 * [Código](https://colab.research.google.com/drive/1otpdkZhfhBwJrU6jD8pvtQAzzsrn-lGo?usp=sharing) 
 * [Aula prática - parte 2: Introdução à Processamento de Linguagem Natural](https://youtu.be/gcbeEvpwCZ0)
@@ -173,29 +166,10 @@ Python:
 * [Introdução de Processamento de Linguagem Natural e Análise de Sentimentos](https://youtu.be/-ZsiDKXGk84)
 
 ## Avaliações 
-Este componente curricular é composta de 6 atividades avaliativas e um projeto final. 
-
-### Atividades Avaliativas 
-
-Em cada atividade avaliativa o estudante deve escolher um problema e um modelo. A atividade pode ser realizada de forma simples, apenas modificando o valor de algum parâmetro de um modelo apresentado em aula, ou até mais elaborada apresentado um novo modelo e um novo problema. 
-
-Sugestão de problemas para avaliação, mas podem escolher outros: 
-1. Prever o lucro de uma startup
-1. Previsão de compra de um produto
-1. Perfil de clientes de uma loja
-1. Análise de perfil de estudantes
-
-Conceitos a serem tratados em cada atividade: 
-1. Classificação simples 
-2. Classificação livre 
-3. Agrupamento de dados - Análise de perfis 
-
-A entrega deve ser realizada no SIGAA com um vídeo explicando a solução. A produção do vídeo é livre e a sugestão de tempo é 5 minutos. 
-
+Um relatório e um projeto final. 
 
 ### Trabalho Final 
-
-Escolha de um problema relacionado ao mestrado ou de uma área de interesse. Recomenda-se que o problema envolva a área de negócios. 
+Escolha de um problema relacionado ao trabalho do estudante ou área de interesse. 
 
 ## Bibliografia Básica 
 * PROVOST, Foster & FAWCETT, Tom. **Data science para negócios: O que você precisa saber sobre mineração de dados e pensamento analítico de dados**. Alta Books, 2016.
