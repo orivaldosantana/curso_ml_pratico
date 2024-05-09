@@ -45,43 +45,11 @@ Os problemas abaixo servem de base para a introdução de conceitos de aprendiza
 
 
 ### Regressão
-* [Slides](https://docs.google.com/presentation/d/1iELBYui_t5S_FNhsOZkqm_a1xvHtOW17QbGeLYWAr-s/edit?usp=sharing)
-* Códigos
-  * [Regressão Linear com a população brasileira](https://colab.research.google.com/drive/1wozRns2hwNmF2bHJu4S38z-gzNCrjXb_?usp=sharing)    
-  * [Regressão usando SVM - prever o lucro de uma startup]() https://colab.research.google.com/drive/13ucrTNkmJIH-XxXQiMS5q6ZTxBC1j6R0?usp=sharing
-  * [Realizando uma estimativa de sálario a partir dos anos de experiência]() https://colab.research.google.com/drive/1cnvCdgxz0eHWzSSjKrMPD1LLj5VE21rv?usp=sharing
-
-Material de Apoio:
-* [Vídeos e Form](https://docs.google.com/forms/d/e/1FAIpQLSeyZ-kUCvbkStaiMOCbs9FYInwPhQX96IMqiTo2kQ7cJLZyCw/viewform?usp=sf_link)
-
-Material complementar:
-* [Vídeo: Prática com regressão linear simples](https://youtu.be/WTIOoHNFsGQ)
-* [Código: Regressão com a população brasileira](https://colab.research.google.com/drive/1dCF8pGdv6N4-C09oP7cJbuSYvTK5zhKj?usp=sharing)
-* [Vídeo: Prática com regressão linear múltipla](https://youtu.be/U9xhYLWhwpc) 
-* [Código: Regressão linear múltipla - prever o lucro de uma startup](https://colab.research.google.com/drive/13ucrTNkmJIH-XxXQiMS5q6ZTxBC1j6R0?usp=sharing)
-* [Códigos em python: Realizando uma estimativa de sálario a partir dos anos de experiência](https://colab.research.google.com/drive/1cnvCdgxz0eHWzSSjKrMPD1LLj5VE21rv?usp=sharing)  
+* [Clique aqui.](aulas/regressao.md)
 
 
 ### _Deep Learning_
-* [Slides](https://docs.google.com/presentation/d/1pxztvhuOc36D76cDW86oj8nGZAIlQSEn2GZJE0GzGLw/edit?usp=sharing)
-* Códigos:
-  * [MLP - Exemplo sobre se um cliente deixa um banco](https://colab.research.google.com/drive/1NndIE2zvup_aWqSG06JR7i6_WxXQ-xMU?usp=sharing)
-  * [Reconhecimento de caracteres escritos a mão](https://colab.research.google.com/drive/1gGi-n3vAJkjdEKMYLZkSCXoDhyRS1tSJ?usp=sharing)
-
-Material de Apoio:
-* [Vídeos e Form: _Deep Learning_](https://docs.google.com/forms/d/e/1FAIpQLSerRGTZZPjgz7yv1zWqZQfFVM6WkTyqkB22R7w3IRnvcRNE5A/viewform?usp=sf_link)
-  
-Material complementar: 
-* [Aula Prática: Reconhecimento de caracteres escritos a mão com Deep Learning](https://youtu.be/lXCz0tduSh8) 
-* [Código: Reconhecimento de caracteres escritos a mão com Deep Learning](https://colab.research.google.com/drive/18fPqtpy6AV5Uo-WlmyFe6Epj-7UlrXgg) 
-
-Extras: 
-* [Neural Networks from 3Blue1Brown](https://www.3blue1brown.com/lessons/neural-networks)
-* [But what is a Neural Network?](https://www.youtube.com/watch?v=aircAruvnKk)
-* [Gradient Descent, How Neural Networks Learn](https://www.youtube.com/watch?v=IHZwWFHWa-w)
-* [What is backpropagation really doing?](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
-* [Backpropagation calculus](https://www.youtube.com/watch?v=tIeHLnjs5U8)
-* [Book: Neural Networks and Deep learning](http://neuralnetworksanddeeplearning.com/index.html)
+* [Clique aqui.](aulas/deep_learning.md)
 
 ## Agrumapemnto 
 ### Introdução sobre K-Means
