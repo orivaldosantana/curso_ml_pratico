@@ -1,6 +1,5 @@
 # K-Means
 * [Slides](https://docs.google.com/presentation/d/1hzeAFwgHNZ7pr_POzd4_2lXUgOz_vrVfuhjxl6tbBCs/edit?usp=sharing)
-* [Vídeo: introdução conceitual sobre árvore de decisão](https://youtu.be/UktH9kZm-w0) 
 * Código:
   * [Exemplo de código: perfil de clientes de uma loja](https://colab.research.google.com/drive/1kyYG9ojYsTvCKj5X9hn4o6mve4RJjBv5?usp=sharing)
 
