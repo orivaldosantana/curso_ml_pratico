@@ -1,7 +1,7 @@
 # K-Means
 * [Slides](https://docs.google.com/presentation/d/1hzeAFwgHNZ7pr_POzd4_2lXUgOz_vrVfuhjxl6tbBCs/edit?usp=sharing)
 * Código:
-  * [Exemplo de código: perfil de clientes de uma loja](https://colab.research.google.com/drive/1R2TDOdRsmfNPnLYP4Nkag8FHE3sbpD5n?usp=sharing)
+  * [Exemplo de código: perfil de clientes de uma loja](https://colab.research.google.com/drive/1kyYG9ojYsTvCKj5X9hn4o6mve4RJjBv5?usp=sharing)
 
 Material de Apoio:
 * [Vídeos e Form: K-Means](https://docs.google.com/forms/d/e/1FAIpQLSfyv1LTd_h0bkniJdy5Zq4Y4oFkqTVQrRVY0MZo8PsvcUzhhQ/viewform?usp=sf_link)
