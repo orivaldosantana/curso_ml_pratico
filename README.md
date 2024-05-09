@@ -51,7 +51,7 @@ Os problemas abaixo servem de base para a introdução de conceitos de aprendiza
 ### _Deep Learning_
 * [Clique aqui.](aulas/deep_learning.md)
 
-## Agrumapemnto 
+## Agrumapamento 
 ### K-Means
 * [Clique aqui.](aulas/k_means.md)
 
