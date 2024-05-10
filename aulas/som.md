@@ -14,5 +14,5 @@ Material complementar:
 * [Vídeo: Análise de perfis e desempenho em LoP](https://youtu.be/RFi62fy17tY)
 * [Código: Análise de perfis e desempenho em LoP](https://colab.research.google.com/drive/1lVfiGPf1yyDx7Zv_AUrS4o3bgO0E0EzH?usp=sharing)
 * [Exemplo de código: visualizar os perfis de alunos da Escola de Ciência e Tecnologia da UFRN](https://colab.research.google.com/drive/1PX9YlNGx_pjgesMsnhyjrXI-nsuJOdWI?usp=sharing)
-* Atividade 
+* Atividade: 
   * Visualizar os dados de perfis de clientes com uma rede SOM. Exemplo de dados: [Clientes de um supermercado no Kaggle](https://www.kaggle.com/datasets/dev0914sharma/customer-clustering?resource=download&select=segmentation+data.csv) ou [acesso direto](https://raw.githubusercontent.com/ect-info/ml/master/dados/segmentation%20data.csv) 
