@@ -66,7 +66,7 @@ Os problemas abaixo servem de base para a introdução de conceitos de aprendiza
 Um relatório e um projeto final. 
 
 ### Trabalho Final 
-Escolha de um problema relacionado ao trabalho do estudante ou área de interesse. 
+Escolha de um problema relacionado ao trabalho do estudante ou área de interesse. Site para obter bases de dados: https://www.kaggle.com/
 
 ## Bibliografia Básica 
 * PROVOST, Foster & FAWCETT, Tom. **Data science para negócios: O que você precisa saber sobre mineração de dados e pensamento analítico de dados**. Alta Books, 2016.
