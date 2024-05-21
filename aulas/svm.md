@@ -6,7 +6,7 @@
 Material de apoio: 
 * [Vídeos e Form: SVM](https://docs.google.com/forms/d/e/1FAIpQLSdS3YCo4v5NDzMuHzWKDyX-hb-nf6Pz2XLEM8RXknV6pmjssQ/viewform?usp=sf_link) 
 
-Material complementar
+Material complementar:
 * [Vídeo: prática sobre classificação usando SVM](https://youtu.be/R3T4KnYg-tE)
 * Códigos:
   * [Exempo 1: SVM - compra de um produto](https://colab.research.google.com/drive/1w7Tt9UFngIkEjThnNlYj8Tki6EwVWxeP?usp=sharing)
