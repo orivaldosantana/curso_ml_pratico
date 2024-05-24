@@ -9,7 +9,10 @@ Material de apoio:
 
 Material complementar
 * [Aula prática - parte 1: Introdução à Processamento de Linguagem Natural](https://youtu.be/ZnGC0tQLjNM)
-* [Código](https://colab.research.google.com/drive/1otpdkZhfhBwJrU6jD8pvtQAzzsrn-lGo?usp=sharing) 
+  * [Código](https://colab.research.google.com/drive/1otpdkZhfhBwJrU6jD8pvtQAzzsrn-lGo?usp=sharing) 
 * [Aula prática - parte 2: Introdução à Processamento de Linguagem Natural](https://youtu.be/gcbeEvpwCZ0)
-* [Código](https://colab.research.google.com/drive/1eJRivNcV_ZdqJqEoX9WhcnusV2-sRKm1?usp=sharing)
+  * [Código](https://colab.research.google.com/drive/1eJRivNcV_ZdqJqEoX9WhcnusV2-sRKm1?usp=sharing)
 * [Introdução de Processamento de Linguagem Natural e Análise de Sentimentos](https://youtu.be/-ZsiDKXGk84)
+  * [Código para avaliações de restaurantes](https://colab.research.google.com/drive/1n80Us6FJZ74XyYIyl8iiqbSyIBapk9Yj?usp=sharing)
+  * [Código para análise de opiniões no site da amazon](https://colab.research.google.com/drive/1Mx9KAPHeDC3jWJaJbdRYmXtsUFmzlvHS?usp=sharing) 
+* [Código sobre treinamento de um classificador de texto usando "Embeddings"](https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/gemini-api/tutorials/text_classifier_embeddings.ipynb)
