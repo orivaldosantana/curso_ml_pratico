@@ -5,7 +5,8 @@
   * [Classificação de texto](https://colab.research.google.com/drive/1kr7KWB_AKYmNT3Pm7IDbzqNcVKGTAFiX?usp=sharing)
   * [Introdução a análise de sentimentos](https://colab.research.google.com/drive/19lgWm2qyeX03VIBz4iQzzuUDZstNNTEy?usp=sharing) 
 * Exercícios
-  * [Classificação de texto](https://colab.research.google.com/drive/1I4Dhj-EislPdN-ZgvZwjAEclkRFtHdg-?usp=sharing)  
+  * [Classificação de texto](https://colab.research.google.com/drive/1I4Dhj-EislPdN-ZgvZwjAEclkRFtHdg-?usp=sharing)
+  * [Introdução a análise de sentimentos.](https://colab.research.google.com/drive/19cDYZi77FHbpiNnedccFlgOsxgxMo14M?usp=sharing)
 
 Material de apoio: 
 * [Form e vídeos](https://docs.google.com/forms/d/e/1FAIpQLSc6vVpLZgcoxq-zaJ12TJI1_6OkzCDhzVQAhoI3_5oioIfDPw/viewform?usp=sf_link)
