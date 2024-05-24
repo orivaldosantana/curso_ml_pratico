@@ -3,7 +3,7 @@
 * [Slides](https://docs.google.com/presentation/d/1yFBohFjlsk-O7Rw7YthMVi3nji1zFHYwLQRUZfLv31c/edit?usp=sharing)
 * Código:
   * [Classificação de texto](https://colab.research.google.com/drive/1kr7KWB_AKYmNT3Pm7IDbzqNcVKGTAFiX?usp=sharing)
-  * [Análise de sentimentos](https://colab.research.google.com/drive/1n80Us6FJZ74XyYIyl8iiqbSyIBapk9Yj?usp=sharing)
+  * [Introdução a análise de sentimentos](https://colab.research.google.com/drive/19lgWm2qyeX03VIBz4iQzzuUDZstNNTEy?usp=sharing) 
 * Exercícios
   * [Classificação de texto](https://colab.research.google.com/drive/1I4Dhj-EislPdN-ZgvZwjAEclkRFtHdg-?usp=sharing)  
 
