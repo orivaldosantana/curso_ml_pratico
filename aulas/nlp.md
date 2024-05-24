@@ -2,7 +2,10 @@
 
 * [Slides](https://docs.google.com/presentation/d/1yFBohFjlsk-O7Rw7YthMVi3nji1zFHYwLQRUZfLv31c/edit?usp=sharing)
 * Código:
-  * [Análise de sentimentos ](https://colab.research.google.com/drive/1n80Us6FJZ74XyYIyl8iiqbSyIBapk9Yj?usp=sharing)
+  * [Classificação de texto](https://colab.research.google.com/drive/1kr7KWB_AKYmNT3Pm7IDbzqNcVKGTAFiX?usp=sharing)
+  * [Análise de sentimentos](https://colab.research.google.com/drive/1n80Us6FJZ74XyYIyl8iiqbSyIBapk9Yj?usp=sharing)
+* Exercícios
+  * [Classificação de texto](https://colab.research.google.com/drive/1I4Dhj-EislPdN-ZgvZwjAEclkRFtHdg-?usp=sharing)  
 
 Material de apoio: 
 * [Form e vídeos](https://docs.google.com/forms/d/e/1FAIpQLSc6vVpLZgcoxq-zaJ12TJI1_6OkzCDhzVQAhoI3_5oioIfDPw/viewform?usp=sf_link)
