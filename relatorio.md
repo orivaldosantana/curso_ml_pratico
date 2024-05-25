@@ -2,7 +2,7 @@
 
 ## Introdução
 ### Identificação 
-* Apresentar os membros da equipe (nome e mátricula). 
+* Apresentar os membros da equipe (nome). 
 
 ### Informações Gerais 
 * Contextualização e justificativa. 
