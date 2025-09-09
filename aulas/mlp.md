@@ -5,7 +5,8 @@
   * [Código com MLP - Íris](https://colab.research.google.com/drive/1y0tUhGB3cwWMdMOO9Z5_5OG0gGXNJHq1?usp=sharing)
 
 * Base de dados:
-  * [Flor de íris](https://raw.githubusercontent.com/ect-info/ml/master/dados/Iris.csv)  
+  * [Flor de íris](https://raw.githubusercontent.com/ect-info/ml/master/dados/Iris.csv)
+  * [Compra de um produto](https://raw.githubusercontent.com/ect-info/ml/master/dados/Social_Network_Ads.csv)
 
 Material de apoio: 
 * [Vídeos e Form: MLP parte 1](https://docs.google.com/forms/d/e/1FAIpQLSc_kQ1w4tnsrRjPsS56jOKZ7Bb1ZwN0bOAEwVRW0pKBWtyZkQ/viewform?usp=sf_link)   
