@@ -12,6 +12,8 @@ Material de apoio:
 * [Vídeos e Form: MLP parte 1](https://docs.google.com/forms/d/e/1FAIpQLSc_kQ1w4tnsrRjPsS56jOKZ7Bb1ZwN0bOAEwVRW0pKBWtyZkQ/viewform?usp=sf_link)   
 * [Vídeos e Form: MLP Parte 2](https://docs.google.com/forms/d/e/1FAIpQLSdFS64t1TlAq9mYtgx6JAi_-XoplMcY0Hj2xc1dub8riXWFTA/viewform?usp=sf_link)   
 * [Vídeo: Construindo e treinando uma rede MLP simples com keras e tensorflow](https://youtu.be/qyMO5UHLgs4) 
+* [Simulador de MLP - Tensorflow Playground](https://playground.tensorflow.org/)
+
 
 Material complementar: 
 * [Vídeo: RNA - Construindo um Perceptron](https://youtu.be/uTi0O3tjdSM)
