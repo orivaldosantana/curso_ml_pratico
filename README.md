@@ -4,6 +4,14 @@ Material de apoio para a disciplina introdutória de Aprendizado de Máquina, co
 
 ## Portal da disciplina
 
+## Menu 
+* [Referências Bibliográficas](https://github.com/ect-info/dpia/blob/master/Bibliografia.md) 
+* [Referências de Cursos Online](https://github.com/ect-info/ml/blob/master/cursos_online.md) 
+* [Outras Referências](https://github.com/ect-info/ml/blob/master/outras_referencias.md) 
+* [Visão Geral da Área](https://github.com/ect-info/dpia/blob/master/visao_geral.md)
+* [Material de Aula](#material-de-aula)
+
+
 O portal organiza os conteúdos por trilhas e oferece uma explicação introdutória voltada a decisões de negócio.
 
 ➡️ **[Acessar o portal da disciplina](https://orivaldosantana.github.io/curso_ml_pratico/)**
