@@ -16,7 +16,7 @@ O portal organiza os conteúdos por trilhas e oferece uma explicação introdut�
 
 ➡️ **[Acessar o portal da disciplina](https://orivaldosantana.github.io/curso_ml_pratico/)**
 
-> O endereço ficará disponível depois de publicar os arquivos pelo GitHub Pages.
+
 
 ## Objetivo
 
