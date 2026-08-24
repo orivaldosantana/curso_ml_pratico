@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portal da disciplina Aprendizado de Máquina na Prática." />
+    <title>Aprendizado de Máquina na Prática</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Página inicial">
+        <span class="brand-mark">ML</span>
+        <span>Aprendizado de Máquina <small>na prática</small></span>
+      </a>
+      <button class="menu-button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">☰</button>
+      <nav id="menu" class="menu" aria-label="Navegação principal">
+        <a href="#trilhas">Conteúdo</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#referencias">Referências</a>
+        <a class="nav-github" href="https://github.com/orivaldosantana/curso_ml_pratico" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Disciplina · 2026</p>
+          <h1>Do dado à decisão <em>inteligente.</em></h1>
+          <p class="intro">Uma jornada prática pelos fundamentos, algoritmos e aplicações do Aprendizado de Máquina.</p>
+          <div class="actions">
+            <a class="button primary" href="#trilhas">Começar a aprender <span>→</span></a>
+            <a class="button secondary" href="https://github.com/orivaldosantana/curso_ml_pratico" target="_blank" rel="noreferrer">Ver materiais no GitHub <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="node n1"></div><div class="node n2"></div><div class="node n3"></div><div class="node n4"></div><div class="node n5"></div><div class="node n6"></div><div class="node n7"></div>
+          <div class="signal signal-a"></div><div class="signal signal-b"></div><div class="signal signal-c"></div>
+          <p class="art-label">APRENDER<br />· PREVER<br />· DESCOBRIR</p>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Resumo da disciplina">
+        <div><strong>12<sup>+</sup></strong><span>tópicos de estudo</span></div>
+        <div><strong>3</strong><span>trilhas de aprendizagem</span></div>
+        <div><strong>9</strong><span>problemas norteadores</span></div>
+        <div><strong>Python</strong><span>como ferramenta de apoio</span></div>
+      </section>
+
+      <section class="section about" id="sobre">
+        <div class="section-label">01 — SOBRE A DISCIPLINA</div>
+        <div class="section-content">
+          <h2>Aprender fazendo é o ponto de partida.</h2>
+          <p>Você vai compreender os principais conceitos de Machine Learning e aplicá-los a problemas reais, conectando teoria, código e análise de dados em cada etapa da jornada.</p>
+          <div class="pills"><span>Fundamentos</span><span>Algoritmos</span><span>Aplicações reais</span><span>Projetos</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="trilhas">
+        <div class="section-label">02 — TRILHAS DE APRENDIZAGEM</div>
+        <div class="section-content">
+          <h2>Uma sequência para construir repertório.</h2>
+          <div class="tracks">
+            <article class="track featured"><span class="track-number">01</span><p class="track-type">FUNDAMENTOS</p><h3>Comece pelo essencial</h3><p>Visão geral da área, introdução ao Aprendizado de Máquina e Python para análise de dados.</p><a href="aulas/index.html">Explorar materiais <span>→</span></a></article>
+            <article class="track"><span class="track-number">02</span><p class="track-type">SUPERVISIONADO</p><h3>Prever e classificar</h3><p>Classificação, regressão, MLP, SVM, árvores de decisão e Deep Learning.</p><a href="aulas/index.html#supervisionado">Explorar materiais <span>→</span></a></article>
+            <article class="track"><span class="track-number">03</span><p class="track-type">NÃO SUPERVISIONADO + TEXTO</p><h3>Encontrar padrões</h3><p>K-Means, mapas auto-organizáveis (SOM) e Processamento de Linguagem Natural.</p><a href="aulas/index.html#nao-supervisionado">Explorar materiais <span>→</span></a></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projetos">
+        <div class="section-label">03 — PROBLEMAS NORTEADORES</div>
+        <div class="section-content">
+          <h2>Algoritmos ganham sentido em problemas concretos.</h2>
+          <p>Ao longo da disciplina, os conceitos são apresentados a partir de desafios que aproximam modelos e aplicações.</p>
+          <div class="project-grid">
+            <span>Classificação de dígitos</span><span>Flores de íris</span><span>Predição de compra</span><span>Lucro de startups</span><span>Perfil de clientes</span><span>Análise de estudantes</span><span>Reconhecimento de faces</span><span>Perguntas e respostas</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-project">
+        <div><p class="eyebrow"><span></span> AVALIAÇÃO</p><h2>Seu problema.<br /><em>Seu projeto final.</em></h2></div>
+        <div><p>Escolha um problema relacionado ao seu trabalho ou área de interesse e desenvolva uma solução orientada por dados.</p><a class="button light" href="https://www.kaggle.com/datasets" target="_blank" rel="noreferrer">Encontrar uma base de dados <span>↗</span></a></div>
+      </section>
+
+      <section class="section references" id="referencias">
+        <div class="section-label">04 — PARA IR ALÉM</div>
+        <div class="section-content"><h2>Bibliografia de apoio.</h2><div class="reading-list"><a href="https://github.com/orivaldosantana/curso_ml_pratico#bibliografia-b%C3%A1sica" target="_blank" rel="noreferrer"><b>Data Science para Negócios</b><span>Provost & Fawcett · 2016</span></a><a href="https://github.com/orivaldosantana/curso_ml_pratico#bibliografia-b%C3%A1sica" target="_blank" rel="noreferrer"><b>Python Data Science Handbook</b><span>Jake VanderPlas · 2016</span></a><a href="https://github.com/orivaldosantana/curso_ml_pratico#bibliografia-b%C3%A1sica" target="_blank" rel="noreferrer"><b>Introduction to Machine Learning with Python</b><span>Müller & Guido · 2016</span></a><a href="https://github.com/orivaldosantana/curso_ml_pratico#bibliografia-b%C3%A1sica" target="_blank" rel="noreferrer"><b>Hands-On Machine Learning</b><span>Aurélien Géron · 2017</span></a></div></div>
+      </section>
+    </main>
+    <footer><a class="brand" href="#inicio"><span class="brand-mark">ML</span><span>Aprendizado de Máquina <small>na prática</small></span></a><p>Material aberto para aprender, experimentar e construir.</p><a href="https://github.com/orivaldosantana/curso_ml_pratico" target="_blank" rel="noreferrer">Acessar repositório ↗</a></footer>
+    <script>const b=document.querySelector('.menu-button'),m=document.querySelector('.menu');b.addEventListener('click',()=>{const x=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',!x);m.classList.toggle('open')});m.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{m.classList.remove('open');b.setAttribute('aria-expanded','false')}));</script>
+  </body>
+</html>
