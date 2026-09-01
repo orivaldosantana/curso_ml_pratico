@@ -1,1 +1,513 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Uma introdução prática ao aprendizado de máquina para gestores e líderes de negócio."><title>Introdução ao Aprendizado de Máquina</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="introducao.css"></head><body><header class="topbar"><a class="brand" href="../index.html"><span class="brand-mark">ML</span><span>Aprendizado de Máquina <small>na prática</small></span></a><nav class="menu always-open"><a href="index.html">Todas as aulas</a><a href="#guia">Guia do gestor</a></nav></header><main><section class="intro-hero"><div><a class="back-link" href="index.html">← Material de aula</a><p class="eyebrow"><span></span> AULA 01 · FUNDAMENTOS</p><h1>Aprendizado de Máquina para <em>melhores decisões.</em></h1><p>Um guia direto para líderes que querem entender onde a tecnologia gera valor - sem precisar se tornar especialista em programação.</p><a class="button primary" href="#essencia">Começar pelo essencial <span>↓</span></a></div><aside><span>UMA IDEIA EM UMA FRASE</span><b>Usar dados do passado para tomar decisões melhores no futuro.</b><p>O modelo encontra padrões em exemplos e usa esses padrões para apoiar uma nova decisão.</p></aside></section><section id="essencia" class="business-section"><p class="section-label">01 — O QUE É, NA PRÁTICA</p><div><h2>Não é uma bola de cristal.<br>É <em>aprendizado por exemplos.</em></h2><p>Em vez de criar uma regra manual para cada situação, você mostra ao sistema muitos casos anteriores. Ele identifica relações relevantes e ajuda a estimar o que pode acontecer com novos casos.</p><div class="formula"><span>Dados históricos</span><i>+</i><span>Objetivo claro</span><i>+</i><span>Modelo</span><i>=</i><strong>Decisão mais informada</strong></div></div></section><section class="use-cases"><div class="use-title"><p class="section-label">02 — QUANDO USAR</p><h2>Vale a pena quando há um padrão a descobrir.</h2><p>O ML é especialmente útil em três cenários presentes na rotina de empresas.</p></div><div class="use-cards"><article><b>01</b><h3>Muitas regras viraram um labirinto</h3><p>Por exemplo, classificar solicitações, avaliar risco ou personalizar recomendações sem manter uma lista interminável de exceções.</p></article><article><b>02</b><h3>O problema é complexo demais</h3><p>Reconhecer objetos em imagens, transformar áudio em texto ou prever demanda no varejo costuma exigir mais do que regras convencionais.</p></article><article><b>03</b><h3>Há dados em volume</h3><p>Transações, interações e históricos permitem identificar sinais de fraude, sentimentos de clientes e oportunidades de ação.</p></article></div></section><section class="business-section process"><p class="section-label">03 — COMO O MODELO APRENDE</p><div><h2>Treinar não é testar.<br><em>E testar não é colocar em produção.</em></h2><p>Para confiar em uma solução, é importante separar os dados. Assim, a empresa verifica se o modelo aprendeu um padrão útil ou apenas decorou o passado.</p><div class="steps"><article><span>1</span><b>Treinamento</b><p>O modelo analisa exemplos históricos: vendas, clientes, pedidos, imagens ou mensagens.</p></article><article><span>2</span><b>Validação</b><p>A equipe compara ajustes e escolhe a configuração que funciona melhor sem se enganar.</p></article><article><span>3</span><b>Teste</b><p>Uma amostra separada confirma o desempenho antes de levar o modelo para o mundo real.</p></article></div></div></section><section class="learning-types"><div><p class="section-label">04 — DOIS CAMINHOS</p><h2>Com resposta conhecida ou em busca de padrões?</h2></div><div class="type-grid"><article><p>APRENDIZADO SUPERVISIONADO</p><h3>Quando já existe uma resposta no histórico</h3><p>O sistema aprende a partir de casos rotulados. É ideal para decidir entre categorias ou estimar um número.</p><ul><li><b>Classificar:</b> este e-mail é spam ou não?</li><li><b>Prever:</b> qual será o preço de venda deste carro?</li></ul></article><article><p>APRENDIZADO NÃO SUPERVISIONADO</p><h3>Quando queremos entender o que ainda não foi organizado</h3><p>O sistema procura grupos e semelhanças sem receber uma resposta pronta.</p><ul><li><b>Agrupar:</b> quais perfis de clientes se parecem?</li><li><b>Visualizar:</b> que padrões aparecem em muitos indicadores?</li></ul></article></div></section><section class="business-section risks"><p class="section-label">05 — O EQUILÍBRIO IMPORTA</p><div><h2>Um modelo pode errar por ser <em>simples demais</em> ou por decorar demais.</h2><div class="risk-grid"><article><h3>Subajuste</h3><p>O modelo é tão simples que não entende o padrão essencial. O resultado é fraco tanto no histórico quanto em casos novos.</p><span>O sinal: baixa qualidade desde o início.</span></article><article><h3>Sobreajuste</h3><p>O modelo se adapta perfeitamente ao passado, inclusive a ruídos e exceções. Quando chegam casos novos, perde desempenho.</p><span>O sinal: excelente no teste interno, decepcionante na prática.</span></article></div></div></section><section id="guia" class="manager-guide"><p class="section-label">06 — GUIA RÁPIDO DO GESTOR</p><h2>Antes de iniciar um projeto, faça estas perguntas.</h2><ol><li><span>01</span><b>Qual decisão queremos melhorar?</b><p>Comece pelo impacto: reduzir perdas, aumentar conversão, priorizar atendimento ou antecipar demanda.</p></li><li><span>02</span><b>Temos exemplos e dados confiáveis?</b><p>Quantidade ajuda, mas qualidade, contexto e representatividade são indispensáveis.</p></li><li><span>03</span><b>Como saberemos que deu certo?</b><p>Defina uma métrica de negócio e uma métrica do modelo antes de construir a solução.</p></li><li><span>04</span><b>Quem revisará a decisão?</b><p>Modelos apoiam pessoas. Preveja acompanhamento, limites de uso e responsabilidade.</p></li></ol><a class="button light" href="https://github.com/orivaldosantana/curso_ml_pratico/blob/main/aulas/introducao.md" target="_blank" rel="noreferrer">Ver material técnico original <span>↗</span></a></section></main><footer><a class="brand" href="../index.html"><span class="brand-mark">ML</span><span>Aprendizado de Máquina <small>na prática</small></span></a><a href="index.html">← Todas as aulas</a></footer></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Capítulo 1 da disciplina: da decisão de negócio ao primeiro modelo inteligente — fundamentos de aprendizado de máquina.">
+<title>Capítulo 1 — Fundamentos de Aprendizado de Máquina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="introducao.css">
+</head>
+<body>
+<header class="topbar">
+<a class="brand" href="../index.html"><span class="brand-mark">ML</span><span>Aprendizado de Máquina <small>na prática</small></span></a>
+<nav class="menu always-open"><a href="index.html">Todas as aulas</a><a href="#sintese">Síntese do capítulo</a></nav>
+</header>
+
+<main>
+
+<section class="intro-hero">
+<div>
+<a class="back-link" href="index.html">← Material de aula</a>
+<p class="eyebrow"><span></span> CAPÍTULO 01 · FUNDAMENTOS</p>
+<h1>Da decisão de negócio ao <em>primeiro modelo inteligente.</em></h1>
+<p>Praticamente toda organização produz dados continuamente — vendas, prontuários, transações, avaliações. Mas possuir dados não significa possuir conhecimento. Este capítulo constrói a arquitetura mental que sustenta toda a disciplina, independentemente do algoritmo estudado depois.</p>
+<a class="button primary" href="#conceito">Começar pela pergunta central <span>↓</span></a>
+</div>
+<aside>
+<span>A PERGUNTA CENTRAL</span>
+<b>Como transformar dados em conhecimento capaz de apoiar decisões?</b>
+<p>Antes de existir um modelo, existe uma decisão que precisa ser tomada. Antes de existir inteligência artificial, existem dados que representam parcialmente um fenômeno do mundo.</p>
+</aside>
+</section>
+
+<section class="toc">
+<div>
+<p class="section-label">MAPA DO CAPÍTULO</p>
+<h2>Doze passos até o primeiro modelo.</h2>
+</div>
+<ol class="toc-list">
+<li><a href="#conceito"><b>01</b> O que é aprendizado de máquina</a></li>
+<li><a href="#arquitetura"><b>02</b> A arquitetura mental do aprendizado</a></li>
+<li><a href="#quando-usar"><b>03</b> Quando usar aprendizado de máquina</a></li>
+<li><a href="#representacao"><b>04</b> Como a máquina enxerga o mundo</a></li>
+<li><a href="#caminhos"><b>05</b> Dois grandes caminhos</a></li>
+<li><a href="#experimento"><b>06</b> O primeiro experimento</a></li>
+<li><a href="#mundo-fechado"><b>07</b> O problema do mundo fechado</a></li>
+<li><a href="#treinamento"><b>08</b> Treinamento e inferência</a></li>
+<li><a href="#generalizacao"><b>09</b> Generalização</a></li>
+<li><a href="#negocio"><b>10</b> Da demonstração a um projeto de negócio</a></li>
+<li><a href="#projeto-final"><b>11</b> O projeto final da disciplina</a></li>
+<li><a href="#sintese"><b>12</b> Síntese e conceitos essenciais</a></li>
+</ol>
+</section>
+
+<section id="conceito" class="business-section">
+<p class="section-label">01 — O QUE É APRENDIZADO DE MÁQUINA</p>
+<div>
+<h2>Aprender por exemplos <em>em vez de escrever todas as regras.</em></h2>
+<p>Quando ouvimos a expressão <em>inteligência artificial</em>, muitas vezes imaginamos máquinas capazes de pensar como seres humanos. Essa imagem, embora popular, não ajuda muito quando precisamos resolver problemas reais em organizações. No contexto desta disciplina, aprendizado de máquina possui uma definição muito mais objetiva.</p>
+<blockquote class="pull"><b>Aprendizado de máquina é uma forma de utilizar exemplos do passado para construir uma representação matemática capaz de apoiar decisões sobre novos casos.</b></blockquote>
+<p>Essa definição possui três elementos importantes.</p>
+<div class="info-cards cols-3">
+<article><b>01 · EXEMPLOS</b><h3>Registros históricos</h3><p>O modelo não observa o mundo diretamente; ele observa fotografias, textos, transações, históricos de clientes ou medições de sensores.</p></article>
+<article><b>02 · REPRESENTAÇÃO</b><h3>Uma função matemática</h3><p>O computador não guarda conhecimento como uma pessoa. Ele ajusta parâmetros capazes de relacionar entradas e resultados desejados.</p></article>
+<article><b>03 · DECISÃO</b><h3>Uma ação futura</h3><p>Um modelo só possui utilidade quando aquilo que aprende contribui para priorizar, classificar, estimar ou apoiar uma decisão humana.</p></article>
+</div>
+
+<p>Antes de compreender aprendizado de máquina, vale recordar como muitos sistemas tradicionais funcionam. Imagine um programa para conceder descontos em uma loja: se o cliente possui cartão premium, conceda 10%; se realizou mais de cinco compras, conceda mais 5%. Todas as regras foram escritas previamente — o computador apenas executa aquilo que recebeu.</p>
+
+<div class="rules-compare">
+<article><h3>Sistema tradicional baseado em regras</h3><ul><li>As regras são poucas e estáveis</li><li>São facilmente explicáveis</li><li>Precisam produzir sempre o mesmo resultado</li></ul><span class="say">"Se acontecer isso, faça aquilo."</span></article>
+<article><h3>Aprendizado de máquina</h3><ul><li>Centenas de variáveis interagem entre si</li><li>Seria impossível escrever manualmente todas as combinações</li><li>O padrão é descoberto, não programado</li></ul><span class="say">"Aqui estão muitos exemplos. Descubra um padrão."</span></article>
+</div>
+
+<p>Considere uma instituição financeira que deseja prever a probabilidade de um cliente se tornar inadimplente. Em vez de escrever regras explícitas, fornecemos muitos exemplos ao algoritmo:</p>
+
+<div class="table-wrap"><table class="data-table">
+<thead><tr><th>Cliente</th><th>Renda</th><th>Compras</th><th>Histórico de pagamento</th><th>Inadimplente?</th></tr></thead>
+<tbody>
+<tr><td>A</td><td>3.500</td><td>12</td><td>Bom</td><td>Não</td></tr>
+<tr><td>B</td><td>1.800</td><td>2</td><td>Ruim</td><td>Sim</td></tr>
+<tr><td>C</td><td>5.200</td><td>20</td><td>Bom</td><td>Não</td></tr>
+<tr><td>D</td><td>2.100</td><td>4</td><td>Regular</td><td>Sim</td></tr>
+</tbody>
+</table></div>
+
+<p>O algoritmo analisa muitos exemplos semelhantes e tenta descobrir uma relação entre as características dos clientes e o resultado observado. O modelo nunca conhece o fenômeno diretamente — ele conhece apenas aquilo que os dados conseguiram registrar. Se os dados forem incompletos, enviesados ou pouco representativos, o modelo aprenderá justamente essa visão limitada do mundo.</p>
+<blockquote class="pull">Dados ruins não produzem conhecimento confiável apenas porque utilizamos inteligência artificial.</blockquote>
+</div>
+</section>
+
+<section id="arquitetura" class="use-cases">
+<div class="use-title">
+<p class="section-label">02 — A ARQUITETURA MENTAL</p>
+<h2>Cinco perguntas que <em>acompanham qualquer projeto.</em></h2>
+<p>Independentemente de estarmos estudando classificação, regressão, agrupamento ou redes neurais, os passos fundamentais permanecem os mesmos. Essa sequência é mais importante do que decorar qualquer algoritmo específico.</p>
+</div>
+<div>
+<div class="diagram-wrap">
+<svg viewBox="0 0 320 420" xmlns="http://www.w3.org/2000/svg">
+<rect x="78" y="18" width="164" height="52" rx="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="160" y="34" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="currentColor">PROBLEMA</text>
+<text x="160" y="49" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="currentColor">Qual decisão?</text>
+<path d="M160 70 V88" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="154,84 166,84 160,92" fill="currentColor"/>
+<rect x="78" y="92" width="164" height="52" rx="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="160" y="108" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="currentColor">DADOS</text>
+<text x="160" y="123" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="currentColor">Quais exemplos?</text>
+<path d="M160 144 V162" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="154,158 166,158 160,166" fill="currentColor"/>
+<rect x="78" y="166" width="164" height="52" rx="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="160" y="182" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="currentColor">MODELO</text>
+<text x="160" y="197" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="currentColor">Qual padrão?</text>
+<path d="M160 218 V236" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="154,232 166,232 160,240" fill="currentColor"/>
+<rect x="78" y="240" width="164" height="52" rx="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="160" y="256" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="currentColor">TESTE</text>
+<text x="160" y="271" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="currentColor">Generaliza?</text>
+<path d="M160 292 V310" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="154,306 166,306 160,314" fill="currentColor"/>
+<rect x="78" y="314" width="164" height="52" rx="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="160" y="330" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="currentColor">DECISÃO</text>
+<text x="160" y="345" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="currentColor">Como usar?</text>
+</svg>
+</div>
+<div class="step-details">
+<article><h3>Problema — Qual decisão precisa ser tomada?</h3><p>Todo projeto começa por uma necessidade concreta. Não começamos perguntando "qual algoritmo devemos utilizar?", mas sim "qual decisão queremos melhorar?".</p><p>Uma empresa deseja identificar clientes com maior chance de responder a uma campanha; um hospital quer apoiar a triagem de exames; uma universidade quer identificar estudantes com risco de evasão. Em todos os casos existe uma decisão real sendo tomada por pessoas ou organizações — o aprendizado de máquina entra como instrumento de apoio.</p></article>
+<article><h3>Dados — Quais exemplos representam esse problema?</h3><p>Depois de definir a decisão, perguntamos quais registros históricos conseguem representar esse fenômeno: notas e frequência na educação, exames e imagens na saúde, transações e crédito nas finanças, sensores e produção na indústria. Os dados são a memória histórica do problema — a matéria-prima do aprendizado.</p></article>
+<article><h3>Modelo — Qual padrão será aprendido?</h3><p>O modelo é uma estrutura matemática que recebe entradas e produz uma resposta. Imagine uma pessoa experiente em avaliar imóveis: ao observar localização, tamanho e idade, ela desenvolveu mentalmente um padrão para estimar preços. Um modelo tenta fazer algo semelhante a partir de muitos exemplos — não memorizando cada caso, mas procurando uma relação reutilizável.</p></article>
+<article><h3>Teste — O padrão funciona em novos casos?</h3><p>Esta é provavelmente a pergunta mais importante do capítulo. Um modelo pode ter excelente desempenho sobre os exemplos de treinamento sem que isso signifique que aprendeu um padrão útil. Precisamos verificar seu comportamento diante de situações novas — essa capacidade chama-se <b>generalização</b>.</p></article>
+<article><h3>Decisão — Como a previsão será utilizada?</h3><p>Uma previsão isolada não gera valor. Se um modelo informa que um cliente possui 82% de probabilidade de responder a uma campanha, alguém precisa decidir: ligar primeiro, priorizar em uma fila, oferecer uma condição, registrar o resultado. O valor está em integrar a previsão dentro de um processo de decisão.</p></article>
+</div>
+</div>
+</section>
+
+<section id="quando-usar" class="business-section">
+<p class="section-label">03 — QUANDO USAR APRENDIZADO DE MÁQUINA</p>
+<div>
+<h2>A pergunta correta <em>vem antes do algoritmo.</em></h2>
+<p>Existe uma tendência atual de imaginar que toda organização deveria utilizar inteligência artificial em qualquer situação. Essa ideia é equivocada: nem todo problema precisa de aprendizado de máquina. Muitas vezes uma regra simples, transparente e determinística resolve melhor a necessidade — a decisão depende da natureza do problema.</p>
+
+<div class="criteria-cards">
+<article><h3>Muitas regras e muitas exceções</h3><p>Decisões que seguem regras legais rígidas continuam sendo bem resolvidas por sistemas tradicionais. Mas quando centenas de variáveis interagem e tornam impossível escrever manualmente todas as combinações, um modelo pode ajudar a estimar probabilidades.</p></article>
+<article><h3>Imagens, áudios e textos</h3><p>Reconhecer um rosto, identificar um objeto em uma fotografia ou classificar um documento jurídico são problemas em que as características importantes não são facilmente descritas por regras humanas.</p></article>
+<article><h3>Previsões numéricas</h3><p>Faturamento do próximo mês, valor de um imóvel, consumo de energia amanhã. Quando existem exemplos históricos relacionando entradas e resultados numéricos, podemos utilizar modelos de regressão.</p></article>
+<article><h3>Descoberta de perfis</h3><p>Em uma empresa com centenas de milhares de clientes, talvez não exista uma classificação pronta de perfis. Métodos de agrupamento organizam os dados em conjuntos semelhantes, que especialistas depois interpretam.</p></article>
+</div>
+
+<p>Um banco pode possuir regras fixas relacionadas à legislação, limites regulatórios e políticas internas — essas regras continuam existindo independentemente do aprendizado de máquina. Ao mesmo tempo, um modelo pode estimar a probabilidade de inadimplência analisando centenas de sinais simultaneamente.</p>
+<blockquote class="pull">O modelo não substitui todas as regras do negócio. Ele complementa a tomada de decisão fornecendo uma estimativa baseada em padrões observados nos dados.</blockquote>
+<p>Projetos bem-sucedidos geralmente combinam:</p>
+<ul><li>conhecimento do domínio;</li><li>regras institucionais;</li><li>análise de dados;</li><li>modelos preditivos;</li><li>decisão humana.</li></ul>
+
+<p>Nos últimos anos, ferramentas generativas ganharam enorme popularidade — mas isso não significa que devam ser utilizadas para qualquer problema organizacional. Se o objetivo é prever inadimplência, estimar vendas ou classificar registros tabulares, modelos específicos para essas tarefas costumam ser mais simples de testar, controlar e avaliar.</p>
+<blockquote class="pull">Escolha primeiro o problema. Depois escolha a tecnologia adequada. Nunca o contrário.</blockquote>
+</div>
+</section>
+
+<section id="representacao" class="business-section">
+<p class="section-label">04 — COMO A MÁQUINA ENXERGA O MUNDO</p>
+<div>
+<h2>Ela não vê rostos ou documentos. <em>Ela recebe números.</em></h2>
+<p>Quando uma pessoa observa uma fotografia, ela enxerga rostos, expressões, cabelos e objetos ao fundo. O computador não. Para ele, uma imagem é uma enorme coleção de números.</p>
+<p>Imagine uma fotografia com resolução de 224 × 224 pixels — 50.176 posições espaciais. Uma fotografia colorida normalmente possui três canais de cor (vermelho, verde e azul), portanto a representação completa contém:</p>
+<div class="math-block">224 × 224 × 3 = 150.528 valores numéricos</div>
+<p>Esses números representam intensidades de cor em cada posição da imagem. A máquina não recebe a palavra "rosto" — ela recebe milhares de valores organizados em uma estrutura numérica chamada <b>tensor</b>. O papel do modelo é encontrar combinações que aparecem frequentemente em exemplos pertencentes à mesma classe.</p>
+
+<div class="diagram-wrap wide">
+<svg viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" y="30" width="64" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<rect x="18" y="40" width="44" height="40" rx="4" fill="none" stroke="currentColor"/>
+<line x1="22" y1="44" x2="22" y2="76" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+<line x1="32" y1="44" x2="32" y2="76" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+<line x1="42" y1="44" x2="42" y2="76" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+<line x1="52" y1="44" x2="52" y2="76" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+<line x1="22" y1="48" x2="58" y2="48" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+<line x1="22" y1="56" x2="58" y2="56" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+<line x1="22" y1="64" x2="58" y2="64" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+<line x1="22" y1="72" x2="58" y2="72" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+<text x="40" y="98" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="currentColor">Imagem</text>
+<path d="M78 60 H98" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="94,54 106,60 94,66" fill="currentColor"/>
+<rect x="106" y="30" width="108" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="160" y="44" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" font-weight="bold" fill="currentColor">Tensor numérico</text>
+<text x="160" y="58" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="currentColor">224 × 224 × 3</text>
+<text x="160" y="70" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="currentColor">milhares de valores</text>
+<path d="M220 60 H240" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="236,54 248,60 236,66" fill="currentColor"/>
+<rect x="248" y="30" width="64" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="280" y="47" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" font-weight="bold" fill="currentColor">Classe</text>
+<text x="280" y="61" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="currentColor">Gabriel</text>
+<text x="280" y="71" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="currentColor">Orivaldo</text>
+</svg>
+</div>
+
+<p>Ao longo da disciplina, alguns termos aparecerão repetidamente:</p>
+<div class="concept-grid">
+<article><span>AMOSTRA</span><h3>Um exemplo individual</h3><p>Cada fotografia capturada pela webcam ou cada linha em uma base de clientes.</p></article>
+<article><span>CARACTERÍSTICAS</span><h3>O que descreve o exemplo</h3><p>Idade, renda, cidade — ou, em uma imagem, os valores de pixel e representações extraídas pelo modelo.</p></article>
+<article><span>RÓTULO</span><h3>A resposta conhecida</h3><p>Usado no aprendizado supervisionado — informa ao algoritmo qual deveria ser a resposta correta durante o treinamento.</p></article>
+<article><span>MODELO</span><h3>A função ajustada</h3><p>Possui parâmetros internos que são ajustados durante o processo de treinamento.</p></article>
+<article><span>INFERÊNCIA</span><h3>Usar o que foi aprendido</h3><p>O momento de apresentar uma nova entrada — nova fotografia, novo cliente, nova transação — e obter uma previsão.</p></article>
+</div>
+</div>
+</section>
+
+<section id="caminhos" class="learning-types">
+<div>
+<p class="section-label">05 — DOIS GRANDES CAMINHOS</p>
+<h2>Existe uma resposta <em>conhecida durante o treinamento?</em></h2>
+<p>Essa diferença não depende da complexidade do algoritmo — depende do tipo de informação disponível.</p>
+</div>
+<div>
+<div class="type-grid">
+<article><p>APRENDIZADO SUPERVISIONADO</p><h3>Quando já existe uma resposta no histórico</h3><p>Representamos essa ideia como X → y, onde X são as características de entrada e y a resposta desejada.</p><ul><li><b>Classificação:</b> a resposta pertence a uma categoria — fraude ou não fraude, aprovado ou reprovado.</li><li><b>Regressão:</b> a resposta é um número contínuo — preço, faturamento, tempo de entrega.</li></ul></article>
+<article><p>APRENDIZADO NÃO SUPERVISIONADO</p><h3>Quando queremos entender o que ainda não foi organizado</h3><p>Não existe uma coluna "perfil" nem sabemos previamente quantos perfis existem. O algoritmo organiza os registros conforme suas semelhanças.</p><ul><li><b>Agrupar:</b> quais perfis de clientes se parecem?</li><li><b>Visualizar:</b> que padrões aparecem em muitos indicadores?</li></ul></article>
+</div>
+
+<div class="diagram-wrap wide">
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
+<rect width="320" height="220" rx="12" fill="none" stroke="currentColor" stroke-width="1"/>
+<text x="160" y="18" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="middle" font-weight="bold" fill="currentColor">Agrupamento por semelhança</text>
+<line x1="40" y1="30" x2="40" y2="180" stroke="currentColor" stroke-width="1"/>
+<line x1="40" y1="180" x2="290" y2="180" stroke="currentColor" stroke-width="1"/>
+<text x="165" y="198" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="currentColor">Característica 1</text>
+<text x="16" y="108" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" transform="rotate(-90 16,108)" fill="currentColor">Característica 2</text>
+<circle cx="68" cy="150" r="4" fill="#60716d" opacity="0.9"/>
+<circle cx="82" cy="138" r="4" fill="#60716d" opacity="0.9"/>
+<circle cx="92" cy="158" r="4" fill="#60716d" opacity="0.9"/>
+<circle cx="105" cy="146" r="4" fill="#60716d" opacity="0.9"/>
+<circle cx="76" cy="126" r="4" fill="#60716d" opacity="0.9"/>
+<circle cx="116" cy="136" r="4" fill="#60716d" opacity="0.9"/>
+<circle cx="170" cy="72" r="4" fill="#142f2b" opacity="0.9"/>
+<circle cx="184" cy="84" r="4" fill="#142f2b" opacity="0.9"/>
+<circle cx="196" cy="66" r="4" fill="#142f2b" opacity="0.9"/>
+<circle cx="208" cy="92" r="4" fill="#142f2b" opacity="0.9"/>
+<circle cx="178" cy="104" r="4" fill="#142f2b" opacity="0.9"/>
+<circle cx="218" cy="78" r="4" fill="#142f2b" opacity="0.9"/>
+<circle cx="228" cy="138" r="4" fill="#d9a400" opacity="0.9"/>
+<circle cx="244" cy="126" r="4" fill="#d9a400" opacity="0.9"/>
+<circle cx="256" cy="146" r="4" fill="#d9a400" opacity="0.9"/>
+<circle cx="268" cy="132" r="4" fill="#d9a400" opacity="0.9"/>
+<circle cx="236" cy="156" r="4" fill="#d9a400" opacity="0.9"/>
+<circle cx="250" cy="116" r="4" fill="#d9a400" opacity="0.9"/>
+<text x="82" y="172" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="currentColor">Perfil 1</text>
+<text x="192" y="54" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="currentColor">Perfil 2</text>
+<text x="250" y="172" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="currentColor">Perfil 3</text>
+</svg>
+</div>
+<blockquote class="pull">Clusters são estruturas matemáticas encontradas nos dados; seu significado precisa ser interpretado por especialistas.</blockquote>
+</div>
+</section>
+
+<section id="experimento" class="use-cases">
+<div class="use-title">
+<p class="section-label">06 — O PRIMEIRO EXPERIMENTO</p>
+<h2>Pequenos experimentos <em>revelam grandes ideias.</em></h2>
+<p>Utilizando o Teachable Machine, a turma criou duas categorias de rostos — Orivaldo e Gabriel — e capturou fotografias com a webcam. O objetivo não é a ferramenta; é visualizar todo o ciclo de aprendizado de máquina.</p>
+</div>
+<div>
+<div class="step-details" style="margin-top:0">
+<article><h3>1 · Definir as classes</h3><p>As categorias não foram descobertas pela máquina — foram definidas por pessoas. Essa decisão influencia diretamente tudo aquilo que o modelo poderá aprender.</p></article>
+<article><h3>2 · Coletar amostras</h3><p>Não basta possuir muitas imagens; é necessário possuir diversidade — expressões, poses, distâncias, iluminação e fundos diferentes. Em aprendizado de máquina, diversidade frequentemente vale mais do que quantidade bruta.</p></article>
+<article><h3>3 · Treinar</h3><p>O algoritmo compara continuamente aquilo que produziu com a resposta correta e ajusta seus parâmetros internos. Ele não guarda nomes de pessoas — constrói uma representação capaz de distinguir padrões nas imagens.</p></article>
+<article><h3>4 · Testar</h3><p>Novos rostos são apresentados ao sistema. O comportamento diante de novos exemplos é muito mais importante do que o comportamento sobre as fotografias usadas para aprender.</p></article>
+<article><h3>5 · Interpretar</h3><p>Os erros não são apenas fracassos — são fontes de informação. Quando o modelo confunde duas pessoas, perguntamos: havia diversidade suficiente? o fundo influenciou? as classes foram bem definidas?</p></article>
+</div>
+</div>
+</section>
+
+<section id="mundo-fechado" class="business-section">
+<p class="section-label">07 — O PROBLEMA DO MUNDO FECHADO</p>
+<div>
+<h2>Quando a máquina é <em>obrigada a escolher uma resposta.</em></h2>
+<p>Um dos resultados mais interessantes do experimento ocorreu quando uma terceira pessoa apareceu diante da câmera. Poderíamos imaginar que o sistema responderia "não conheço esta pessoa" — mas, como havia sido treinado apenas com duas classes, ele continuou escolhendo uma delas.</p>
+
+<div class="diagram-wrap">
+<svg viewBox="0 0 320 140" xmlns="http://www.w3.org/2000/svg">
+<rect x="18" y="24" width="84" height="92" rx="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="60" y="40" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" font-weight="bold" fill="currentColor">Entrada</text>
+<circle cx="60" cy="64" r="18" fill="none" stroke="currentColor" stroke-width="1.2"/>
+<circle cx="54" cy="60" r="2.5" fill="currentColor"/>
+<circle cx="66" cy="60" r="2.5" fill="currentColor"/>
+<path d="M52 70 Q60 76 68 70" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<text x="60" y="96" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="currentColor">Lucas</text>
+<path d="M108 70 H138" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="134,64 146,70 134,76" fill="currentColor"/>
+<rect x="146" y="16" width="156" height="108" rx="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="224" y="34" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" font-weight="bold" fill="currentColor">Classes treinadas</text>
+<rect x="162" y="46" width="124" height="26" rx="6" fill="none" stroke="currentColor"/>
+<text x="224" y="62" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="currentColor">Orivaldo</text>
+<rect x="162" y="82" width="124" height="26" rx="6" fill="none" stroke="currentColor"/>
+<text x="224" y="98" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="currentColor">Gabriel</text>
+</svg>
+</div>
+
+<p>Mesmo sendo uma pessoa diferente, o modelo escolhe a classe mais semelhante segundo os padrões aprendidos. Isso não significa que o sistema esteja com defeito — significa que a tarefa foi projetada dessa maneira. Chamamos essa situação de <b>mundo fechado</b>: o classificador assume que qualquer nova entrada pertence obrigatoriamente a uma das categorias conhecidas.</p>
+<p>Em aplicações reais — como um sistema de controle de acesso — seria perigoso classificar automaticamente um visitante como funcionário. Por isso, projetos reais incorporam estratégias adicionais.</p>
+
+<div class="strategy-cards">
+<article><h3>Classe "desconhecido"</h3><p>Treinar explicitamente uma categoria chamada <em>outro</em> ou <em>desconhecido</em>.</p></article>
+<article><h3>Limiar de confiança</h3><p>Rejeitar classificações cuja confiança seja muito baixa — o sistema não afirma conhecer, informa que não possui evidência suficiente.</p></article>
+<article><h3>Revisão humana</h3><p>Encaminhar casos duvidosos para avaliação de um especialista, combinando IA com julgamento humano.</p></article>
+</div>
+
+<div class="table-wrap"><table class="data-table">
+<thead><tr><th>Situação observada</th><th>Possível explicação</th></tr></thead>
+<tbody>
+<tr><td>Funciona apenas na sala de aula</td><td>O fundo e a iluminação viraram pistas para o modelo</td></tr>
+<tr><td>Acerta exemplos conhecidos e erra novos</td><td>Pode existir sobreajuste ou poucas amostras</td></tr>
+<tr><td>Desempenho pior para determinado grupo</td><td>Os dados possuem cobertura desigual</td></tr>
+<tr><td>Pessoa desconhecida vira Gabriel</td><td>Não existe mecanismo de rejeição</td></tr>
+</tbody>
+</table></div>
+<p>Praticamente todos esses problemas têm origem na definição dos dados, não na escolha do algoritmo. Essa é uma das mensagens centrais da disciplina.</p>
+</div>
+</section>
+
+<section id="treinamento" class="use-cases">
+<div class="use-title">
+<p class="section-label">08 — TREINAMENTO E INFERÊNCIA</p>
+<h2>Aprender e utilizar <em>são momentos diferentes.</em></h2>
+<p>É comum imaginar que um sistema inteligente esteja continuamente aprendendo enquanto faz previsões. Na prática, distinguimos duas fases bem diferentes.</p>
+</div>
+<div>
+<div class="compare-2">
+<article><h3>Treinamento</h3><ul><li>Recebe muitos exemplos</li><li>Calcula diferenças entre previsão e resposta correta</li><li>Ajusta seus parâmetros</li><li>Repete o processo diversas vezes</li></ul></article>
+<article><h3>Inferência</h3><ul><li>Os parâmetros já estão fixos</li><li>Recebe uma nova entrada</li><li>Executa os cálculos necessários</li><li>Produz uma resposta — com velocidade, custo e memória em jogo</li></ul></article>
+</div>
+<div class="analogy"><b>Uma analogia simples:</b> um estudante passa meses lendo, resolvendo exercícios, errando e corrigindo — isso é o treinamento. No dia da prova ele não reaprende todo o conteúdo; utiliza o que já sabe para responder questões novas — isso é a inferência.</div>
+<p style="margin-top:30px;font-size:14px;line-height:1.75;color:var(--muted);max-width:650px"><b>Transfer learning</b> aproveita uma representação já aprendida em outro conjunto de dados e a adapta para uma nova tarefa, em vez de treinar um modelo do zero — é o que permite construir demonstrações de classificação de imagens com relativamente poucas amostras.</p>
+<p style="font-size:14px;line-height:1.75;color:var(--muted);max-width:650px"><b>Deploy</b> é o processo de levar o modelo treinado para outro ambiente — um aplicativo, um sistema web, um dispositivo embarcado. O que precisa ser preservado inclui o modelo treinado, o pré-processamento utilizado, a versão das classes e a forma como os dados devem ser preparados antes da inferência.</p>
+</div>
+</section>
+
+<section id="generalizacao" class="generalization-section">
+<p class="section-label">09 — GENERALIZAÇÃO</p>
+<div>
+<h2>Memorizar <em>não é aprender.</em></h2>
+<p>Imagine dois estudantes: o primeiro decorou todas as respostas dos exercícios; o segundo compreendeu os princípios e resolve problemas inéditos. No aprendizado de máquina ocorre a mesma situação — um modelo útil não é aquele com desempenho perfeito sobre exemplos antigos, mas aquele capaz de funcionar diante de novos casos. Essa capacidade chama-se <b>generalização</b>.</p>
+
+<div class="diagram-wrap wide on-dark">
+<svg viewBox="0 0 320 360" xmlns="http://www.w3.org/2000/svg">
+<text x="160" y="18" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="bold" fill="currentColor">Três comportamentos possíveis</text>
+<g transform="translate(0, 30)">
+<rect x="18" y="0" width="284" height="92" rx="8" fill="none" stroke="#5c7369" stroke-width="1"/>
+<text x="30" y="14" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="currentColor">Subajuste</text>
+<line x1="34" y1="22" x2="34" y2="74" stroke="#5c7369" stroke-width="1"/>
+<line x1="34" y1="74" x2="276" y2="74" stroke="#5c7369" stroke-width="1"/>
+<circle cx="52" cy="64" r="2.8" fill="currentColor"/><circle cx="78" cy="56" r="2.8" fill="currentColor"/><circle cx="104" cy="52" r="2.8" fill="currentColor"/><circle cx="130" cy="46" r="2.8" fill="currentColor"/><circle cx="156" cy="38" r="2.8" fill="currentColor"/><circle cx="182" cy="34" r="2.8" fill="currentColor"/><circle cx="208" cy="30" r="2.8" fill="currentColor"/><circle cx="234" cy="26" r="2.8" fill="currentColor"/>
+<line x1="44" y1="66" x2="248" y2="28" stroke="#8a97a3" stroke-width="2"/>
+</g>
+<g transform="translate(0, 138)">
+<rect x="18" y="0" width="284" height="92" rx="8" fill="none" stroke="#5c7369" stroke-width="1"/>
+<text x="30" y="14" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="currentColor">Bom equilíbrio</text>
+<line x1="34" y1="22" x2="34" y2="74" stroke="#5c7369" stroke-width="1"/>
+<line x1="34" y1="74" x2="276" y2="74" stroke="#5c7369" stroke-width="1"/>
+<circle cx="52" cy="64" r="2.8" fill="currentColor"/><circle cx="78" cy="56" r="2.8" fill="currentColor"/><circle cx="104" cy="52" r="2.8" fill="currentColor"/><circle cx="130" cy="46" r="2.8" fill="currentColor"/><circle cx="156" cy="38" r="2.8" fill="currentColor"/><circle cx="182" cy="34" r="2.8" fill="currentColor"/><circle cx="208" cy="30" r="2.8" fill="currentColor"/><circle cx="234" cy="26" r="2.8" fill="currentColor"/>
+<path d="M44,68 C78,60 108,48 138,42 S198,30 248,24" fill="none" stroke="#c7fa5b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g transform="translate(0, 246)">
+<rect x="18" y="0" width="284" height="92" rx="8" fill="none" stroke="#5c7369" stroke-width="1"/>
+<text x="30" y="14" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="currentColor">Sobreajuste</text>
+<line x1="34" y1="22" x2="34" y2="74" stroke="#5c7369" stroke-width="1"/>
+<line x1="34" y1="74" x2="276" y2="74" stroke="#5c7369" stroke-width="1"/>
+<circle cx="52" cy="64" r="2.8" fill="currentColor"/><circle cx="78" cy="56" r="2.8" fill="currentColor"/><circle cx="104" cy="52" r="2.8" fill="currentColor"/><circle cx="130" cy="46" r="2.8" fill="currentColor"/><circle cx="156" cy="38" r="2.8" fill="currentColor"/><circle cx="182" cy="34" r="2.8" fill="currentColor"/><circle cx="208" cy="30" r="2.8" fill="currentColor"/><circle cx="234" cy="26" r="2.8" fill="currentColor"/>
+<path d="M44,68 C58,20 72,80 88,34 S118,78 136,26 S168,82 188,22 S220,74 248,24" fill="none" stroke="#ffd43b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+</svg>
+</div>
+
+<div class="trio-cards">
+<article><h3>Subajuste</h3><p>O modelo é incapaz de capturar a estrutura dos dados. Desempenho ruim tanto no treinamento quanto em novos exemplos.</p></article>
+<article><h3>Bom equilíbrio</h3><p>Captura os padrões relevantes sem memorizar detalhes desnecessários. O desempenho em novos dados permanece semelhante ao observado no desenvolvimento.</p></article>
+<article><h3>Sobreajuste</h3><p>Excelente sobre os exemplos de treinamento, mas a qualidade cai com dados novos — aprendeu ruídos em vez de uma estrutura geral.</p></article>
+</div>
+<blockquote class="pull">Ele continua funcionando quando encontra situações que nunca viu? Essa é a essência da generalização.</blockquote>
+</div>
+</section>
+
+<section id="negocio" class="business-section">
+<p class="section-label">10 — DA DEMONSTRAÇÃO A UM PROJETO DE NEGÓCIO</p>
+<div>
+<h2>Quando o erro <em>passa a possuir custo.</em></h2>
+<p>Construir um classificador de rostos em sala de aula é um excelente exercício didático. Mas um projeto aplicado exige muito mais do que treinar um algoritmo — quando uma previsão influencia decisões organizacionais, precisamos especificar claramente diversos elementos.</p>
+<blockquote class="pull">"Vamos utilizar inteligência artificial para melhorar as vendas" ainda não descreve um problema científico nem um projeto de negócio suficientemente claro.</blockquote>
+
+<div class="table-wrap"><table class="data-table">
+<thead><tr><th>Pergunta</th><th>Formulação operacional</th></tr></thead>
+<tbody>
+<tr><td>Qual problema?</td><td>Priorizar leads com maior probabilidade de responder em 48 horas</td></tr>
+<tr><td>Qual unidade?</td><td>Cada linha representa um lead criado antes do primeiro contato</td></tr>
+<tr><td>Qual rótulo?</td><td>Respondeu e marcou reunião em até 14 dias</td></tr>
+<tr><td>Qual métrica?</td><td>Recall entre os 20% melhores e aumento de reuniões por hora</td></tr>
+<tr><td>Qual ação?</td><td>Ordenar a fila de atendimento permitindo revisão humana</td></tr>
+</tbody>
+</table></div>
+
+<p>Esse nível de clareza é muito mais importante do que escolher imediatamente um algoritmo sofisticado — agora sabemos qual decisão será tomada, quais dados serão usados, o que representa sucesso, como medir o resultado e como a previsão será incorporada ao processo.</p>
+
+<div class="leak-cards">
+<article><h3>Vazamento temporal</h3><p>Ocorre quando usamos informações que ainda não existiam no momento da decisão — por exemplo, uma característica registrada somente depois da compra. O modelo aparenta desempenho excelente, mas essa qualidade desaparece em produção.</p></article>
+<article><h3>Variáveis proxy</h3><p>Características aparentemente inocentes podem funcionar como substitutas indiretas de atributos sensíveis. O algoritmo não elimina a responsabilidade humana — aumenta a necessidade de interpretação e governança.</p></article>
+</div>
+</div>
+</section>
+
+<section id="projeto-final" class="use-cases">
+<div class="use-title">
+<p class="section-label">11 — O PROJETO FINAL DA DISCIPLINA</p>
+<h2>Escolher um problema que <em>sobreviva ao contato com os dados.</em></h2>
+<p>Cada estudante será incentivado a desenvolver um projeto aplicado relacionado à sua área de pesquisa ou atuação profissional.</p>
+</div>
+<div>
+<blockquote class="pull">Escolha o problema pela qualidade da pergunta e dos dados, não pela sofisticação do algoritmo. Um modelo simples bem validado frequentemente produz muito mais conhecimento do que uma técnica extremamente complexa aplicada sobre dados mal definidos.</blockquote>
+<div class="checklist-grid">
+<article><b>PROBLEMA</b><h3>Decisão concreta</h3><p>Existe uma decisão real ou pergunta de pesquisa importante? Evite propostas genéricas como "usar IA na educação".</p></article>
+<article><b>DADOS</b><h3>Existem e são acessíveis?</h3><p>Podem ser acessados legalmente? Possuem volume e diversidade suficientes para representar o problema?</p></article>
+<article><b>RÓTULO</b><h3>Resposta confiável</h3><p>Qual é a resposta histórica? Quem a definiu? Sem um rótulo consistente, o modelo aprende relações inconsistentes.</p></article>
+<article><b>BASELINE</b><h3>Uma referência simples</h3><p>Uma regra de negócio, uma média histórica ou um classificador básico — para provar que o modelo produz valor adicional.</p></article>
+<article><b>MÉTRICA</b><h3>Coerente com a decisão</h3><p>Não basta "boa acurácia". Às vezes importa mais reduzir falsos negativos; em outros casos, priorizar os clientes mais promissores.</p></article>
+<article><b>VALIDAÇÃO</b><h3>Desempenho em dados novos</h3><p>Como estimaremos o desempenho em dados que não participaram do desenvolvimento? Está diretamente ligado à generalização.</p></article>
+<article><b>INTERPRETAÇÃO</b><h3>Limites do resultado</h3><p>O que os resultados permitem concluir? O que não pode ser afirmado? Quais riscos precisam ser considerados?</p></article>
+</div>
+</div>
+</section>
+
+<section id="sintese" class="manager-guide">
+<p class="section-label">12 — SÍNTESE DO CAPÍTULO</p>
+<h2>A arquitetura mental permanece <em>mesmo quando os algoritmos mudam.</em></h2>
+<p style="max-width:650px;color:#c2cfca;line-height:1.75;font-size:16px;margin-top:24px">Se você compreender esta sequência, terá construído o principal fundamento necessário para avançar nos próximos conteúdos. O algoritmo poderá mudar — hoje classificaremos imagens, depois estimaremos valores numéricos, mais adiante encontraremos grupos de clientes ou construiremos redes neurais. A lógica continuará praticamente idêntica.</p>
+
+<div class="diagram-wrap on-dark">
+<svg viewBox="0 0 340 84" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" y="18" width="56" height="34" rx="8" fill="none" stroke="#c7fa5b" stroke-width="1.2"/>
+<text x="36" y="31" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" font-weight="bold" fill="#eef2ee">Problema</text>
+<path d="M64 35 H74" stroke="#c7fa5b" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="70,31 78,35 70,39" fill="#c7fa5b"/>
+<rect x="74" y="18" width="56" height="34" rx="8" fill="none" stroke="#c7fa5b" stroke-width="1.2"/>
+<text x="102" y="31" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" font-weight="bold" fill="#eef2ee">Dados</text>
+<path d="M130 35 H140" stroke="#c7fa5b" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="136,31 144,35 136,39" fill="#c7fa5b"/>
+<rect x="140" y="18" width="56" height="34" rx="8" fill="none" stroke="#c7fa5b" stroke-width="1.2"/>
+<text x="168" y="31" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" font-weight="bold" fill="#eef2ee">Modelo</text>
+<path d="M196 35 H206" stroke="#c7fa5b" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="202,31 210,35 202,39" fill="#c7fa5b"/>
+<rect x="206" y="18" width="56" height="34" rx="8" fill="none" stroke="#c7fa5b" stroke-width="1.2"/>
+<text x="234" y="31" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" font-weight="bold" fill="#eef2ee">Teste</text>
+<path d="M262 35 H272" stroke="#c7fa5b" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="268,31 276,35 268,39" fill="#c7fa5b"/>
+<rect x="272" y="18" width="56" height="34" rx="8" fill="none" stroke="#c7fa5b" stroke-width="1.2"/>
+<text x="300" y="31" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" font-weight="bold" fill="#eef2ee">Decisão</text>
+<text x="170" y="68" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#bdcac6">A lógica se repete mesmo quando os algoritmos mudam.</text>
+</svg>
+</div>
+
+<h3 class="chapter-subhead">Conceitos essenciais</h3>
+<p>Ao terminar este capítulo, você deve ser capaz de explicar, com suas próprias palavras, os seguintes conceitos.</p>
+<div class="glossary-grid">
+<article><h3>Aprendizado de máquina</h3><p>Processo de aprender padrões a partir de exemplos históricos para produzir previsões úteis em novos casos.</p></article>
+<article><h3>Amostra</h3><p>Um exemplo individual dentro de uma base de dados.</p></article>
+<article><h3>Características</h3><p>As informações que descrevem cada amostra e servem como entrada para o modelo.</p></article>
+<article><h3>Rótulo</h3><p>A resposta conhecida utilizada no aprendizado supervisionado.</p></article>
+<article><h3>Modelo</h3><p>A função matemática cujos parâmetros são ajustados durante o treinamento.</p></article>
+<article><h3>Treinamento</h3><p>A fase em que o modelo aprende utilizando exemplos.</p></article>
+<article><h3>Inferência</h3><p>A utilização do modelo treinado para produzir previsões sobre novos dados.</p></article>
+<article><h3>Generalização</h3><p>A capacidade de manter bom desempenho diante de situações que não participaram do treinamento.</p></article>
+<article><h3>Classificação</h3><p>Tarefa supervisionada cuja resposta pertence a uma categoria.</p></article>
+<article><h3>Regressão</h3><p>Tarefa supervisionada cuja resposta é um valor numérico contínuo.</p></article>
+<article><h3>Agrupamento</h3><p>Tarefa não supervisionada que organiza registros semelhantes sem categorias previamente definidas.</p></article>
+</div>
+
+<h3 class="chapter-subhead">Estudo de caso para reflexão</h3>
+<p>Uma empresa deseja classificar fotografias de produtos em duas categorias: <b>Danificado</b> e <b>Produto em boas condições</b>. Antes de pensar em qualquer algoritmo, responda:</p>
+<div class="case-study">
+<article><span>01</span><h3>Qual é a decisão que será apoiada?</h3><p>O sistema aprovará automaticamente produtos? Priorizará inspeções humanas? Separará mercadorias em uma linha de produção? A resposta modifica completamente o projeto.</p></article>
+<article><span>02</span><h3>Quais exemplos precisam existir na base?</h3><p>Não basta fotografar produtos em condições ideais. A base precisa representar diferentes iluminações, ângulos, câmeras, tipos de produto e intensidades de dano.</p></article>
+<article><span>03</span><h3>O que acontece com um produto nunca visto?</h3><p>Um modelo treinado com garrafas e caixas recebe a foto de um eletrônico. Ele deveria ser obrigado a classificá-lo, ou deveria reconhecer que está fora do universo conhecido? Em muitos projetos reais, saber dizer "não possuo evidência suficiente" é tão importante quanto acertar uma classificação.</p></article>
+</div>
+
+<h3 class="chapter-subhead">Perguntas de revisão</h3>
+<ol class="review-list">
+<li>Por que aprendizado de máquina é diferente de simplesmente escrever muitas regras em um sistema?</li>
+<li>Qual é a diferença entre uma amostra e uma característica?</li>
+<li>O que representa o rótulo em um problema supervisionado?</li>
+<li>Por que uma imagem precisa ser transformada em números antes de entrar em um modelo?</li>
+<li>Qual é a diferença entre classificação, regressão e agrupamento?</li>
+<li>Por que o classificador treinado apenas com Orivaldo e Gabriel foi obrigado a escolher uma dessas classes para uma terceira pessoa?</li>
+<li>Qual é a diferença entre treinamento e inferência?</li>
+<li>O que significa dizer que um modelo possui boa capacidade de generalização?</li>
+<li>Por que dados diversos são mais importantes do que simplesmente aumentar a quantidade de exemplos semelhantes?</li>
+<li>Ao desenvolver um projeto para negócios, por que devemos começar pelo problema e pela decisão antes de escolher o algoritmo?</li>
+</ol>
+
+<h3 class="chapter-subhead">Mensagem final</h3>
+<p>Se apenas quatro ideias deste capítulo permanecerem na memória, elas serão suficientes para orientar toda a disciplina.</p>
+<div class="final-quotes">
+<blockquote><b>Primeira:</b> aprendizado de máquina transforma exemplos em uma representação capaz de apoiar decisões sobre novos casos.</blockquote>
+<blockquote><b>Segunda:</b> um modelo conhece apenas o universo que os dados e as classes permitiram que ele conhecesse.</blockquote>
+<blockquote><b>Terceira:</b> o verdadeiro objetivo não é memorizar exemplos, mas generalizar para situações inéditas.</blockquote>
+<blockquote><b>Quarta:</b> em projetos de inovação e negócios, comece sempre pelo problema, pelos dados e pela métrica. O algoritmo vem depois.</blockquote>
+</div>
+
+<a class="button light" href="https://github.com/orivaldosantana/curso_ml_pratico/blob/main/aulas/introducao.md" target="_blank" rel="noreferrer">Ver material técnico original <span>↗</span></a>
+</section>
+
+</main>
+<footer><a class="brand" href="../index.html"><span class="brand-mark">ML</span><span>Aprendizado de Máquina <small>na prática</small></span></a><a href="index.html">← Todas as aulas</a></footer>
+</body>
+</html>
